@@ -8,6 +8,7 @@ const ButtonRow = styled.div`
   display: flex;
   gap: 6px;
   justify-content: center;
+  flex-wrap: wrap;
   margin: 8px 0;
 `;
 

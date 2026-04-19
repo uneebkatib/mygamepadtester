@@ -533,6 +533,7 @@ export const StyledGamepadSVGAxesAVGWrapper = styled.div`
     inset 0 1px 0 rgba(255, 255, 255, 0.3);
   position: relative;
   will-change: transform;
+  min-width: 0;
   
   &::before {
     content: '';
