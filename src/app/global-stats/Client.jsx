@@ -46,6 +46,7 @@ const TimeframeSelector = styled.div`
   padding: 8px;
   border-radius: 100px;
   width: fit-content;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 4px 15px rgba(0,0,0,0.03);
@@ -64,6 +65,11 @@ const TimeframeButton = styled.button`
 
   &:hover {
     color: ${props => props.$active ? 'white' : '#0f172a'};
+  }
+
+  @media (max-width: 480px) {
+    padding: 8px 14px;
+    font-size: 0.8rem;
   }
 `;
 

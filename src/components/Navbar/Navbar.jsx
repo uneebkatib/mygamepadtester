@@ -225,7 +225,10 @@ const NavbarComponent = () => {
           onMouseEnter={() => setToolsDropdownOpen(true)}
           onMouseLeave={() => setToolsDropdownOpen(false)}
         >
-          <button className={`dropdown-trigger ${(pathname.includes("-test") || pathname.includes("-tester") || pathname.includes("-converter")) ? "active" : ""}`}>
+          <button
+            className={`dropdown-trigger ${(pathname.includes("-test") || pathname.includes("-tester") || pathname.includes("-converter")) ? "active" : ""}`}
+            onClick={() => setToolsDropdownOpen(prev => !prev)}
+          >
             <span><FaTools /> Hardware Tests <FaChevronDown style={{ fontSize: '0.8rem', marginLeft: '4px' }} /></span>
           </button>
           <DropdownMenu $isOpen={toolsDropdownOpen}>
