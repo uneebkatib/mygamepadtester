@@ -4,8 +4,15 @@ import en from '@/locales/en.json';
 
 export const metadata = {
     title: `${en.about?.title || 'About Us'} | MyGamepadTester`,
+    description: 'Learn about MyGamepadTester — the free browser-based tool for testing PS5, Xbox, Switch, and PC controllers. Built by Uneeb Katib to help gamers diagnose drift and hardware issues.',
     alternates: {
         canonical: 'https://mygamepadtester.com/about',
+    },
+    openGraph: {
+        title: `${en.about?.title || 'About Us'} | MyGamepadTester`,
+        description: 'Learn about MyGamepadTester — the free browser-based tool for testing PS5, Xbox, Switch, and PC controllers.',
+        url: 'https://mygamepadtester.com/about',
+        type: 'website',
     },
 }
 

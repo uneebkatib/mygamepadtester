@@ -6,555 +6,607 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/aim-sensitivity-converter/</loc>
+    <loc>https://mygamepadtester.com/aim-sensitivity-converter</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/deadzone-test/</loc>
+    <loc>https://mygamepadtester.com/button-test</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/input-lag-test/</loc>
+    <loc>https://mygamepadtester.com/deadzone-test</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/joycon-tester/</loc>
+    <loc>https://mygamepadtester.com/input-lag-test</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/joystick-calibration/</loc>
+    <loc>https://mygamepadtester.com/joycon-tester</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/keyboard-test/</loc>
+    <loc>https://mygamepadtester.com/joystick-calibration</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/mouse-test/</loc>
+    <loc>https://mygamepadtester.com/keyboard-test</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/stick-drift-test/</loc>
+    <loc>https://mygamepadtester.com/mouse-test</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/trigger-test/</loc>
+    <loc>https://mygamepadtester.com/stick-drift-test</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/vibration-test/</loc>
+    <loc>https://mygamepadtester.com/trigger-test</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/global-stats/</loc>
+    <loc>https://mygamepadtester.com/vibration-test</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/</loc>
+    <loc>https://mygamepadtester.com/global-stats</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mygamepadtester.com/guides</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Controller Testing Hub -->
+  <!-- Stick Drift & Calibration Content Hubs -->
   <url>
-    <loc>https://mygamepadtester.com/guides/controller-testing/</loc>
+    <loc>https://mygamepadtester.com/guides/stick-drift</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mygamepadtester.com/guides/deadzone-tuning</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/controller-testing/gamepad-calibration/</loc>
+    <loc>https://mygamepadtester.com/guides/deadzone-tuning/apex-legends</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mygamepadtester.com/guides/deadzone-tuning/ea-fc</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mygamepadtester.com/guides/deadzone-tuning/fortnite</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mygamepadtester.com/guides/deadzone-tuning/rocket-league</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mygamepadtester.com/guides/deadzone-tuning/warzone</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mygamepadtester.com/guides/hardware-calibration</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mygamepadtester.com/guides/controller-failure</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Controller Testing Hub -->
+  <url>
+    <loc>https://mygamepadtester.com/guides/controller-testing</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mygamepadtester.com/guides/controller-testing/gamepad-calibration</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/controller-testing/gamepad-calibration/professional-calibration-methods/</loc>
+    <loc>https://mygamepadtester.com/guides/controller-testing/gamepad-calibration/professional-calibration-methods</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/controller-testing/gamepad-calibration/analog-stick-optimization/</loc>
+    <loc>https://mygamepadtester.com/guides/controller-testing/gamepad-calibration/analog-stick-optimization</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/controller-testing/drift-detection/</loc>
+    <loc>https://mygamepadtester.com/guides/controller-testing/drift-detection</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/controller-testing/drift-detection/advanced-drift-analysis/</loc>
+    <loc>https://mygamepadtester.com/guides/controller-testing/drift-detection/advanced-drift-analysis</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/controller-testing/drift-detection/micro-drift-detection/</loc>
+    <loc>https://mygamepadtester.com/guides/controller-testing/drift-detection/micro-drift-detection</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/controller-testing/latency-testing/</loc>
+    <loc>https://mygamepadtester.com/guides/controller-testing/latency-testing</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/controller-testing/latency-testing/input-lag-optimization/</loc>
+    <loc>https://mygamepadtester.com/guides/controller-testing/latency-testing/input-lag-optimization</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/controller-testing/latency-testing/wireless-vs-wired-analysis/</loc>
+    <loc>https://mygamepadtester.com/guides/controller-testing/latency-testing/wireless-vs-wired-analysis</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <!-- Microsoft (Xbox Hub) -->
   <url>
-    <loc>https://mygamepadtester.com/guides/microsoft/</loc>
+    <loc>https://mygamepadtester.com/guides/microsoft</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/microsoft/xbox-one-fat-original/</loc>
+    <loc>https://mygamepadtester.com/guides/microsoft/xbox-one-fat-original</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/microsoft/xbox-one-fat-original/hdmi-port-replacement/</loc>
+    <loc>https://mygamepadtester.com/guides/microsoft/xbox-one-fat-original/hdmi-port-replacement</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/microsoft/xbox-one-fat-original/power-supply-repair/</loc>
+    <loc>https://mygamepadtester.com/guides/microsoft/xbox-one-fat-original/power-supply-repair</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/microsoft/xbox-one-s/</loc>
+    <loc>https://mygamepadtester.com/guides/microsoft/xbox-one-s</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/microsoft/xbox-one-s/optical-drive-replacement/</loc>
+    <loc>https://mygamepadtester.com/guides/microsoft/xbox-one-s/optical-drive-replacement</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/microsoft/xbox-one-s/fan-cleaning-and-replacement/</loc>
+    <loc>https://mygamepadtester.com/guides/microsoft/xbox-one-s/fan-cleaning-and-replacement</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/microsoft/xbox-one-x/</loc>
+    <loc>https://mygamepadtester.com/guides/microsoft/xbox-one-x</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/microsoft/xbox-one-x/thermal-paste-replacement/</loc>
+    <loc>https://mygamepadtester.com/guides/microsoft/xbox-one-x/thermal-paste-replacement</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/microsoft/xbox-one-x/hard-drive-upgrade/</loc>
+    <loc>https://mygamepadtester.com/guides/microsoft/xbox-one-x/hard-drive-upgrade</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/microsoft/xbox-one-gamepad/</loc>
+    <loc>https://mygamepadtester.com/guides/microsoft/xbox-one-gamepad</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/microsoft/xbox-one-gamepad/stick-drift-repair/</loc>
+    <loc>https://mygamepadtester.com/guides/microsoft/xbox-one-gamepad/stick-drift-repair</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/microsoft/xbox-one-gamepad/button-repair-guide/</loc>
+    <loc>https://mygamepadtester.com/guides/microsoft/xbox-one-gamepad/button-repair-guide</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/microsoft/xbox-series-s/</loc>
+    <loc>https://mygamepadtester.com/guides/microsoft/xbox-series-s</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/microsoft/xbox-series-s/storage-expansion/</loc>
+    <loc>https://mygamepadtester.com/guides/microsoft/xbox-series-s/storage-expansion</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/microsoft/xbox-series-s/fan-replacement/</loc>
+    <loc>https://mygamepadtester.com/guides/microsoft/xbox-series-s/fan-replacement</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/microsoft/xbox-series-x/</loc>
+    <loc>https://mygamepadtester.com/guides/microsoft/xbox-series-x</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/microsoft/xbox-series-x/ssd-expansion-guide/</loc>
+    <loc>https://mygamepadtester.com/guides/microsoft/xbox-series-x/ssd-expansion-guide</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/microsoft/xbox-series-x/liquid-metal-maintenance/</loc>
+    <loc>https://mygamepadtester.com/guides/microsoft/xbox-series-x/liquid-metal-maintenance</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/microsoft/xbox-elite-series-gamepad/</loc>
+    <loc>https://mygamepadtester.com/guides/microsoft/xbox-elite-series-gamepad</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/microsoft/xbox-elite-series-gamepad/paddle-replacement/</loc>
+    <loc>https://mygamepadtester.com/guides/microsoft/xbox-elite-series-gamepad/paddle-replacement</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/microsoft/xbox-elite-series-gamepad/hair-trigger-adjustment/</loc>
+    <loc>https://mygamepadtester.com/guides/microsoft/xbox-elite-series-gamepad/hair-trigger-adjustment</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/microsoft/xbox-elite-series-2-gamepad/</loc>
+    <loc>https://mygamepadtester.com/guides/microsoft/xbox-elite-series-2-gamepad</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/microsoft/xbox-elite-series-2-gamepad/battery-replacement/</loc>
+    <loc>https://mygamepadtester.com/guides/microsoft/xbox-elite-series-2-gamepad/battery-replacement</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/microsoft/xbox-elite-series-2-gamepad/stick-tension-adjustment/</loc>
+    <loc>https://mygamepadtester.com/guides/microsoft/xbox-elite-series-2-gamepad/stick-tension-adjustment</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <!-- Nintendo Hub -->
   <url>
-    <loc>https://mygamepadtester.com/guides/nintendo/</loc>
+    <loc>https://mygamepadtester.com/guides/nintendo</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch/</loc>
+    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch/nintendo-switch-teardown-disassembly/</loc>
+    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch/nintendo-switch-teardown-disassembly</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch/screen-replacement-guide/</loc>
+    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch/screen-replacement-guide</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch/battery-replacement/</loc>
+    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch/battery-replacement</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch/kickstand-repair/</loc>
+    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch/kickstand-repair</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-lite/</loc>
+    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-lite</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-lite/analog-stick-replacement/</loc>
+    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-lite/analog-stick-replacement</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-lite/d-pad-repair/</loc>
+    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-lite/d-pad-repair</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-oled/</loc>
+    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-oled</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-oled/oled-screen-replacement/</loc>
+    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-oled/oled-screen-replacement</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-oled/improved-kickstand-maintenance/</loc>
+    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-oled/improved-kickstand-maintenance</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-joy-con/</loc>
+    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-joy-con</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-joy-con/joy-con-button-repair/</loc>
+    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-joy-con/joy-con-button-repair</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-joy-con/joy-con-rail-replacement/</loc>
+    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-joy-con/joy-con-rail-replacement</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-2/</loc>
+    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-2</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-2/pre-release-information/</loc>
+    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-2/pre-release-information</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-2-joy-con/</loc>
+    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-2-joy-con</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-2-joy-con/next-gen-joy-con-features/</loc>
+    <loc>https://mygamepadtester.com/guides/nintendo/nintendo-switch-2-joy-con/next-gen-joy-con-features</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <!-- Sony (PlayStation Hub) -->
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/</loc>
+    <loc>https://mygamepadtester.com/guides/sony</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/playstation-3-ps3/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/playstation-3-ps3</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/playstation-3-ps3/ylod-repair-guide/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/playstation-3-ps3/ylod-repair-guide</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/playstation-3-ps3/blu-ray-drive-repair/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/playstation-3-ps3/blu-ray-drive-repair</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/ps3-gamepad-dualshock-3/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/ps3-gamepad-dualshock-3</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/ps3-gamepad-dualshock-3/dualshock-3-repair/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/ps3-gamepad-dualshock-3/dualshock-3-repair</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/ps3-gamepad-dualshock-3/battery-replacement/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/ps3-gamepad-dualshock-3/battery-replacement</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/playstation-4-ps4/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/playstation-4-ps4</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/playstation-4-ps4/hard-drive-upgrade/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/playstation-4-ps4/hard-drive-upgrade</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/playstation-4-ps4/overheating-repair/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/playstation-4-ps4/overheating-repair</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/ps4-gamepad-dualshock-4-v1/v2/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/ps4-gamepad-dualshock-4-v1/v2</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/ps5-console/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/ps5-console</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/ps5-console/ps5-hdmi-replacement/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/ps5-console/ps5-hdmi-replacement</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/ps5-console/ssd-expansion-guide/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/ps5-console/ssd-expansion-guide</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/ps5-console/fan-cleaning-guide/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/ps5-console/fan-cleaning-guide</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/playstation-5-slim-ps5-slim/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/playstation-5-slim-ps5-slim</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/playstation-5-slim-ps5-slim/ps5-slim-hdmi-replacement/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/playstation-5-slim-ps5-slim/ps5-slim-hdmi-replacement</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/playstation-5-slim-ps5-slim/detachable-drive-module/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/playstation-5-slim-ps5-slim/detachable-drive-module</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/playstation-5-pro-ps5-pro/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/playstation-5-pro-ps5-pro</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/playstation-5-pro-ps5-pro/ps5-pro-hdmi-replacement/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/playstation-5-pro-ps5-pro/ps5-pro-hdmi-replacement</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/playstation-5-pro-ps5-pro/enhanced-cooling-system/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/playstation-5-pro-ps5-pro/enhanced-cooling-system</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/ps5/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/ps5</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/ps5/dualsense-complete-troubleshooting/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/ps5/dualsense-complete-troubleshooting</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/ps5/adaptive-trigger-repair/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/ps5/adaptive-trigger-repair</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/ps5-gamepad-dualsense-edge/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/ps5-gamepad-dualsense-edge</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/ps5-gamepad-dualsense-edge/dualsense-edge-repair/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/ps5-gamepad-dualsense-edge/dualsense-edge-repair</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/sony/ps5-gamepad-dualsense-edge/stick-module-replacement/</loc>
+    <loc>https://mygamepadtester.com/guides/sony/ps5-gamepad-dualsense-edge/stick-module-replacement</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <!-- Valve (Steam Deck Hub) -->
   <url>
-    <loc>https://mygamepadtester.com/guides/valve/steamdeck-1010-lcd/</loc>
+    <loc>https://mygamepadtester.com/guides/valve/steamdeck-1010-lcd</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/valve/steamdeck-1010-lcd/ssd-upgrade-guide/</loc>
+    <loc>https://mygamepadtester.com/guides/valve/steamdeck-1010-lcd/ssd-upgrade-guide</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/valve/steamdeck-1010-lcd/thumbstick-replacement/</loc>
+    <loc>https://mygamepadtester.com/guides/valve/steamdeck-1010-lcd/thumbstick-replacement</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/valve/steamdeck-1010-lcd/screen-replacement/</loc>
+    <loc>https://mygamepadtester.com/guides/valve/steamdeck-1010-lcd/screen-replacement</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/valve/steamdeck-1030-oled/</loc>
+    <loc>https://mygamepadtester.com/guides/valve/steamdeck-1030-oled</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/valve/steamdeck-1030-oled/oled-display-care/</loc>
+    <loc>https://mygamepadtester.com/guides/valve/steamdeck-1030-oled/oled-display-care</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/valve/steamdeck-1030-oled/enhanced-cooling-system/</loc>
+    <loc>https://mygamepadtester.com/guides/valve/steamdeck-1030-oled/enhanced-cooling-system</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <!-- HDMI Repair Hub -->
   <url>
-    <loc>https://mygamepadtester.com/guides/hdmi/all-consoles/</loc>
+    <loc>https://mygamepadtester.com/guides/hdmi/all-consoles</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/hdmi/all-consoles/all-consoles-hdmi-diode-test/</loc>
+    <loc>https://mygamepadtester.com/guides/hdmi/all-consoles/all-consoles-hdmi-diode-test</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/hdmi/all-consoles/hdmi-troubleshooting-guide/</loc>
+    <loc>https://mygamepadtester.com/guides/hdmi/all-consoles/hdmi-troubleshooting-guide</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/guides/hdmi/all-consoles/hdmi-port-replacement-guide/</loc>
+    <loc>https://mygamepadtester.com/guides/hdmi/all-consoles/hdmi-port-replacement-guide</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://mygamepadtester.com/about/</loc>
+    <loc>https://mygamepadtester.com/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/contact/</loc>
+    <loc>https://mygamepadtester.com/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/privacy-policy/</loc>
+    <loc>https://mygamepadtester.com/privacy-policy</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://mygamepadtester.com/terms-of-service/</loc>
+    <loc>https://mygamepadtester.com/terms-of-service</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>

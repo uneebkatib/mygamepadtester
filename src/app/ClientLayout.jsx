@@ -31,9 +31,11 @@ export default function ClientLayout({ children }) {
                         {!isWidget && <Navbar />}
                         
                         {/* 📢 GLOBAL TOP AD (EXCEPT IN WIDGET MODE) */}
+                        {/* min-height reserves space during SSR so the ad slot never collapses to 0,
+                            preventing the layout shift (CLS) caused by the ad container appearing on hydration */}
                         {!isWidget && (
                             <Suspense fallback={null}>
-                                <div style={{ width: '100%', maxWidth: '1200px', margin: '1rem auto 0 auto', padding: '0 1rem' }}>
+                                <div style={{ width: '100%', maxWidth: '1200px', margin: '1rem auto 0 auto', padding: '0 1rem', minHeight: '90px' }}>
                                     <Ad type="top" />
                                 </div>
                             </Suspense>

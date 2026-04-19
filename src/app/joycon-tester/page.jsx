@@ -7,6 +7,15 @@ const tool = en.tools.joycon;
 export const metadata = {
     title: 'Joy-Con Drift Test – Detect Nintendo Switch Stick Drift Free Online',
     description: 'Run a free Joy-Con drift test in your browser. Detect Nintendo Switch controller problems, button issues, and stick drift instantly. No download needed.',
+    alternates: {
+        canonical: 'https://mygamepadtester.com/joycon-tester',
+    },
+    openGraph: {
+        title: 'Joy-Con Drift Test – Detect Nintendo Switch Stick Drift Free Online',
+        description: 'Free Joy-Con drift test in your browser. Detect Switch controller stick drift, button issues, and analog stick problems instantly.',
+        url: 'https://mygamepadtester.com/joycon-tester',
+        type: 'website',
+    },
 }
 
 export default function JoyConTesterPage() {

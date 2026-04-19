@@ -7,7 +7,7 @@ import GuideLayout from '@/components/Guides/GuideLayout';
 export const metadata = {
     title: 'Controller Failure Study: Why Modern Gamepads Fail So Fast',
     description: 'A data-driven analysis of controller failure rates across PS5, Xbox, and Nintendo Switch. Learn about the $280/year controller tax and how to spot early failure signs.',
-    alternates: { canonical: '/guides/controller-failure' },
+    alternates: { canonical: 'https://mygamepadtester.com/guides/controller-failure' },
 };
 
 export default function ControllerFailureGuide() {

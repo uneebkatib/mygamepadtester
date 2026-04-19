@@ -1,6 +1,6 @@
 'use client'
 
-import React, { createContext, useContext } from 'react';
+import React, { createContext, useContext, useEffect } from 'react';
 import { Theme } from '../styles/Theme';
 
 // Theme context — always light, dark mode removed
@@ -14,8 +14,16 @@ const ThemeContext = createContext({
 /**
  * ThemeProvider — simplified to always use light theme.
  * Dark mode functionality has been removed.
+ *
+ * After the first client paint the `.theme-ready` class is added to
+ * <html> so that the smooth color-transition CSS rule in globals.css
+ * activates only after the initial render is complete (avoids CLS/TBT).
  */
 export const ThemeProvider = ({ children }) => {
+    useEffect(() => {
+        document.documentElement.classList.add('theme-ready');
+    }, []);
+
     return (
         <ThemeContext.Provider value={{
             isDarkMode: false,
