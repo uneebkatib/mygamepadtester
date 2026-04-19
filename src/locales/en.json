@@ -1,0 +1,1075 @@
+{
+    "name": "MyGamepadTester",
+    "tagline": "Free Online Controller Testing",
+    "seo": {
+        "title": "Free Gamepad Tester – PS5, Xbox, Switch & PC Online",
+        "description": "Test your PS5, Xbox or Switch controller free in seconds. Detect stick drift, dead buttons, input lag & vibration no download, no account, instant results.",
+        "keywords": "gamepad tester, controller test, stick drift test, joystick test, PS5 controller test, Xbox controller test, controller button test, trigger test online"
+    },
+    "nav": {
+        "home": "Home",
+        "guides": "Guides",
+        "blog": "Blog",
+        "about": "About",
+        "contact": "Contact",
+        "stats": "Global Stats",
+        "hardwareTests": "Hardware Tests",
+        "joycon": "Joy-Con Tester",
+        "vibration": "Vibration Test",
+        "calibration": "Joystick Calibration",
+        "stickDrift": "Stick Drift Test",
+        "button": "Button Test",
+        "inputLag": "Input Lag Test",
+        "trigger": "Trigger Test",
+        "deadzone": "Deadzone Test",
+        "keyboard": "Keyboard Tester",
+        "mouse": "Mouse Tester",
+        "sensConverter": "Aim Sensitivity Converter",
+        "language": "Language",
+        "embed": "Embed Widget"
+    },
+    "home": {
+        "partnersTitle": "Recommended Repair Partners",
+        "partnersDesc": "If you need professional hardware repair, I recommend these trusted shops for users in Europe."
+    },
+    "controllers": {
+        "joycon": "Joy-Con Tester"
+    },
+    "features": {
+        "vibrationTest": "Vibration Test"
+    },
+    "tester": {
+        "gamepad": "Gamepad",
+        "connected": "Connected",
+        "notFound": "Not Detected",
+        "precisionDriftTest": "Precision Stick Drift Audit",
+        "driftDetectionSub": "Professional-grade real-time axis deviation analysis",
+        "joystickCalibration": "Joystick Heartbeat & Calibration",
+        "readyToTest": "Ready to Test?",
+        "connectMessage": "Connect your controller via USB or Bluetooth to begin. This tester supports PS5, Xbox, Nintendo Switch, and all generic gamepads.",
+        "usbConnection": "USB Connection",
+        "usbInstruction": "Plug your controller directly into a USB port on your PC or Mac. Most controllers work instantly without drivers.",
+        "wirelessPairing": "Wireless Pairing",
+        "wirelessInstruction": "Put your controller in pairing mode and connect via your OS Bluetooth settings. Bluetooth may have higher latency.",
+        "nextStep": "Final Step",
+        "pressAnyButton": "Press any button on your controller to wake up the browser Gamepad API.",
+        "gamepadId": "Gamepad ID",
+        "interfaceScale": "Interface Scale",
+        "buttonsHistory": "Buttons History",
+        "infiniteVibration": "Infinite Vibration",
+        "ps5NotSupported": "PS5 haptics require Chrome/Edge",
+        "leftStick": "Left Stick",
+        "rightStick": "Right Stick",
+        "loadingVisuals": "Loading Visuals...",
+        "polling": "Polling Rate",
+        "latency": "Avg Latency",
+        "jitter": "Jitter/Noise",
+        "excellent": "Excellent",
+        "great": "Great",
+        "good": "Good",
+        "fair": "Fair",
+        "capturing": "Capturing...",
+        "noElement": "Element not found",
+        "saved": "Saved",
+        "error": "Error",
+        "reportTitle": "Gamepad Health Report",
+        "controller": "Controller",
+        "buttons": "Buttons",
+        "axes": "Axes",
+        "date": "Date",
+        "testYours": "Test yours at",
+        "copied": "Copied",
+        "failed": "Failed",
+        "screenshot": "Screenshot",
+        "copy": "Copy Report",
+        "share": "Share Results",
+        "wait": "Wait...",
+        "fullRange": "Trigger Range",
+        "yes": "Yes",
+        "no": "No",
+        "max": "Max",
+        "usb": "USB Connection",
+        "likelyHall": "Likely Hall Effect",
+        "total": "Total Presses",
+        "diagonals": "Diagonals",
+        "sensor": "Sensor Type",
+        "hallEffect": "Hall Effect",
+        "potentiometer": "Potentiometer",
+        "dualsense": "DualSense",
+        "dualshock": "DualShock",
+        "xbox": "Xbox",
+        "switchPro": "Switch Pro",
+        "eightBitDo": "8BitDo",
+        "standard": "Standard Mapping",
+        "bluetooth": "Bluetooth",
+        "playstation": "PlayStation",
+        "disconnected": "Disconnected"
+    },
+    "mainPageInfo": {
+        "tocLabel": "Table of Contents",
+        "tocLabels": {
+            "intro": "Introduction",
+            "stickDrift": "Stick Drift Fix",
+            "whyApart": "Why This Tester Stands Apart",
+            "fullTest": "Button, Stick & Vibration",
+            "universal": "Universal Controller Tester",
+            "howTo": "How to Use",
+            "quickFixes": "Quick Fixes",
+            "advancedTips": "Advanced Tips",
+            "faq": "FAQ"
+        },
+        "introHighlight": "If you've ever dealt with a controller that registers ghost inputs or a joystick that refuses to sit still, you already know how frustrating it is to troubleshoot blind. That's exactly why I built this tool, a fully free, online gamepad tester that runs straight in your browser with no download required.",
+        "card1Title": "Live via HTML5 Gamepad API",
+        "card1Desc": "Pulls live data from your inputs the moment you connect.",
+        "card2Title": "All Supported Devices",
+        "card2Desc": "Handles PS5, Xbox, Switch, and PC controllers.",
+        "card3Title": "Deep Test Suite",
+        "card3Desc": "Run button and joystick tests to map out accuracy.",
+        "card4Title": "Microphone & Vibration",
+        "card4Desc": "Judge vibration controls and motor strength.",
+        "card5Title": "Analog Calibration",
+        "card5Desc": "Fine-tune dead zones and thresholds.",
+        "card6Title": "Raw Numbers That Matter",
+        "card6Desc": "View axis offsets and response curves.",
+        "stickDriftHeading": "Stick Drift Fix - Diagnose Your Joystick with a Live Drift Tester",
+        "stickDriftIntro": "The moment your gamepad starts moving on its own, the first real step is to locate the source, and that's where our online gamepad tester comes in. Using the <a href='/stick-drift-test'>drift tester</a>, you can verify joystick drift in seconds and identify whether the problem sits in the hardware or software.",
+        "stickDriftSteps": [
+            "Start by checking if a firmware or drivers update resolves the issue.",
+            "Use the built-in <a href='/joystick-calibration'>calibration tools</a> to calibrate your controller and adjust sensitivity.",
+            "If drift persists, clean the joystick carefully with isopropyl alcohol to clear debris affecting the contacts.",
+            "Should that fail, the next step is to replace the joystick modules entirely.",
+            "Run a <a href='/button-test'>controller button test</a> to catch any faulty buttons, stuck buttons, or unresponsive inputs.",
+            "Check the button contacts and worn-out rubber pads, re-solder any damaged connections, replace degraded parts.",
+            "Update your controller drivers.",
+            "Retest everything using the controller tester to confirm all button issues are resolved before you call it done."
+        ],
+        "whyStandsApartHeading": "Why This Gamepad Tester Stands Apart",
+        "whyStandsApartIntro": "I built this tool to be a reliable resource for both casual gamers and dedicated modders. It's fully compatible with all major controller brands. You can explore the <a href='/guides'>guide section</a> or use the <a href='/input-lag-test'>input lag monitor</a> for fast, accurate answers that save time and money on unnecessary repairs.",
+        "table": {
+            "feature": "Feature",
+            "meaning": "What It Means for You",
+            "rows": [
+                [
+                    "Official Gamepad API",
+                    "Frame-perfect readouts across Windows, macOS, and Linux. No estimation, no averaging."
+                ],
+                [
+                    "Cross-Platform Browser Support",
+                    "Runs in Chrome, Edge, or Firefox without any extra software or installation on any desktop OS."
+                ],
+                [
+                    "No-Install Browser Access",
+                    "The moment you connect, it visualises every press instantly. No extra software or drivers required."
+                ],
+                [
+                    "True Drift Detection",
+                    "Quantifies left and right-stick offset so you're reading real calibration data from the hardware, not guessing."
+                ],
+                [
+                    "Multi-Controller Support",
+                    "Connect up to four gamepads at once and monitor them side by side, useful when comparing controllers."
+                ],
+                [
+                    "All-in-One Toolset",
+                    "Vibration testing and integrated analog calibration checks, all built straight into the browser."
+                ],
+                [
+                    "Community Reliability Data",
+                    "I track anonymous aggregate metrics to help identify which controller models are most prone to hardware fatigue."
+                ],
+                [
+                    "Troubleshooting Library",
+                    "Direct links to a growing library of guides covering everything from joystick drift to internal cable repair."
+                ]
+            ]
+        },
+        "fullTestHeading": "Button, Stick & Vibration - Full Controller Test in One Session",
+        "buttonResponseTitle": "Button Response",
+        "buttonResponseDesc": "During any controller test session, this Gamepad Tester lights up every face, shoulder, and trigger input the moment it registers, letting you confirm pressure, travel, and simultaneous presses with the kind of button response clarity that matters most on PC gaming controllers.",
+        "stickHeatmapsTitle": "Stick Heatmaps & Deadzone Scan",
+        "stickHeatmapsDesc": "Spin both sticks and the tool instantly plots movement paths that reveal drift and deadzone thresholds, which significantly speeds up the diagnostic process.",
+        "vibrationMotorTitle": "Vibration Motor Test",
+        "vibrationMotorDesc": "Activate a single burst or continuous rumble through the vibration controller test to check motor strength by feel, giving you a complete picture of how your controller performs across every layer of the test.",
+        "universalTesterHeading": "Universal Controller Tester - Sony, Microsoft, PC & Beyond",
+        "universalTesterIntro": "This professional controller test tool offers coverage across Sony, Microsoft, and PC ecosystems, making it the trusted universal controller tester for modders and repair professionals alike. For detailed haptic analysis, check our <a href='/vibration-test'>vibration test</a> module.",
+        "universalTable": {
+            "controller": "Controller",
+            "connection": "Connection",
+            "features": "Key Features Detected",
+            "rows": [
+                [
+                    "PS4 / PS3",
+                    "Wired & Bluetooth",
+                    "Light-bar feedback, motion sensing, analogue face buttons from legacy titles, all fully charted in real time"
+                ],
+                [
+                    "PS5 DualSense",
+                    "USB / Bluetooth",
+                    "Adaptive triggers, gyro, advanced haptics, firmware version displayed so you always know when to update"
+                ],
+                [
+                    "Xbox One",
+                    "USB / Wireless",
+                    "Vibration motors, bumpers, triggers, and full button mapping supported natively on Windows and Mac"
+                ],
+                [
+                    "Xbox Series",
+                    "USB / Wireless",
+                    "Full Series X|S button set including the share button and impulse trigger rumble detection"
+                ],
+                [
+                    "Generic PC Gamepads",
+                    "USB / Bluetooth",
+                    "XInput or DirectInput from all major brands, rumble compatibility and D-pad diagonals reported so nothing gets missed"
+                ],
+                [
+                    "Switch Pro",
+                    "USB / Bluetooth",
+                    "Full motion sensors and HD-rumble supported readouts, gyro alignment aids that help verify motion accuracy across every input"
+                ]
+            ]
+        },
+        "universalTesterFooter": "From niche devices to mainstream Xbox hardware, this tool is built to handle it all without compromise.",
+        "howToUseHeading": "How to Use the Gamepad Tester - Connect, Test & Verify in Minutes",
+        "howToUseSteps": [
+            {
+                "title": "Connect Your Controller",
+                "desc": "Connect your controller via USB-C, Micro-USB, or Bluetooth pairing, then let the Gamepad API guide the rest, press any button and the Gamepad Tester updates the icon instantly, so if nothing changes, that switch is likely faulty."
+            },
+            {
+                "title": "Rotate the Joystick",
+                "desc": "Rotate the joystick and the Gamepad Tester traces a live path of every movement, letting you verify full range and smoothness without any guesswork — something I always do first when diagnosing a controller that feels slightly off."
+            },
+            {
+                "title": "Run the Vibration Test",
+                "desc": "Click the vibration test button, select infinite vibration, and the Gamepad Tester engages the motors so you can feel their operation immediately and confirm everything is working as it should."
+            }
+        ],
+        "quickFixesHeading": "Quick Fixes When Your Controller Won't Show Up",
+        "quickFixes": [
+            {
+                "label": "Windows",
+                "title": "Close Exclusive-Mode Apps",
+                "desc": "If Gamepad Tester fails to detect your pad on Windows, close any exclusive-mode apps like Steam Big Picture that may be blocking access, this is the first thing I check and it resolves the issue more often than you'd expect."
+            },
+            {
+                "label": "macOS",
+                "title": "Use Chrome or Firefox",
+                "desc": "On macOS, stick to Chrome or Firefox since Safari only exposes partial Gamepad API events, limiting what the tool can read from your controller. You can verify browser compatibility using our <a href='/deadzone-test'>deadzone scan</a>."
+            },
+            {
+                "label": "All Platforms",
+                "title": "Vibration Not Triggering",
+                "desc": "If vibration fails to trigger, make sure your browser tab is focused and that your system accessibility settings allow haptic feedback, a small tweak that's easy to miss but essential for the Gamepad API to deliver full results."
+            }
+        ],
+        "advancedTipsHeading": "Get More From Every Test - Advanced Diagnostics Tips",
+        "advancedTips": [
+            "For deeper analysis, watch the numeric axis and button gauges while slowly sweeping the sticks to the edges, consistent flat spots or delayed changes are clear signs that worn potentiometers or trigger sensors need attention, and from personal experience, catching this early saves a costly replacement.",
+            "For latency checks, mash the triggers rapidly and watch the delay read-out to see exactly how your controller responds under pressure.",
+            "Regular cleaning with compressed air and isopropyl alcohol can also significantly mitigate drift that the Gamepad Tester detects, keeping your inputs sharp between full diagnostic sessions."
+        ],
+        "faqHeading": "Frequently Asked Questions",
+        "heroHeadline": "Free Gamepad Tester – PS5, Xbox, Switch & PC Online",
+        "heroSubtext": "Free online gamepad tester powered by the HTML5 Gamepad API. Test PS5, Xbox, Switch & PC controllers for stick drift, button response, vibration and more. No download required.",
+        "heroCTA": "Start Testing Now",
+        "trustSignal1": "Works instantly in Chrome and Edge - no install, no account",
+        "trustSignal2": "Your controller data never leaves this browser tab",
+        "trustSignal3": "100% free - no hidden costs, no time limits",
+        "tocHeading": "Table of Contents",
+        "tocButtonOpen": "Show Table of Contents",
+        "tocButtonClose": "Hide Table of Contents",
+        "supportedHeading": "Works With Every Major Controller",
+        "supportedSubtext": "Connect via USB or Bluetooth. The browser Gamepad API detects your controller automatically - no drivers, no software, no configuration needed.",
+        "supportedPlaystationTitle": "PlayStation",
+        "supportedPlaystationList": "PS5 DualSense, PS5 DualSense Edge, PS4 DualShock 4, PS3 DualShock 3",
+        "supportedXboxTitle": "Xbox",
+        "supportedXboxList": "Xbox Series X and S, Xbox One, Xbox 360 (with adapter), Xbox Elite",
+        "supportedNintendoTitle": "Nintendo",
+        "supportedNintendoList": "Nintendo Switch Pro, Joy-Con (via adapter), Nintendo Switch Lite, 8BitDo controllers",
+        "supportedPCTitle": "PC and Other",
+        "supportedPCList": "Generic USB gamepads, Steam Deck controller, Arcade sticks and fight pads, Most DirectInput devices",
+        "supportedBrowserTitle": "Browser Requirements",
+        "supportedBrowserChrome": "Chrome: Full support including DualSense haptics",
+        "supportedBrowserEdge": "Edge: Full support",
+        "supportedBrowserFirefox": "Firefox: Buttons and sticks only",
+        "supportedBrowserSafari": "Safari: Limited support",
+        "supportedNoteTitle": "Note for PS5 and Xbox users",
+        "supportedNoteDesc": "Button presses, analog stick values, trigger pressure and rumble all register identically across PS5, Xbox and Switch controllers on this tester. You do not need a separate PS5 tester page or Xbox tester page. This tool handles all of them from one place.",
+        "whatYouCanTestHeading": "What This Gamepad Tester Checks",
+        "whatYouCanTestSubtext": "Every input your games actually receive, with raw values direct from the browser Gamepad API. Nothing is estimated or averaged.",
+        "whatYouCanTestCard1Title": "Stick Drift Detection",
+        "whatYouCanTestCard1Desc": "Watch axis values with both sticks untouched. A healthy stick rests consistently below 0.10. Values that climb above 0.14 at rest and stay there mean early drift is forming. At this stage the problem is almost always fixable without buying a new controller.",
+        "whatYouCanTestCard1Link": "Test for stick drift",
+        "whatYouCanTestCard2Title": "Button Response Test",
+        "whatYouCanTestCard2Desc": "Press each button once and watch for a clean single highlight. Two flashes on one press means double-registering. No response at all means a dead switch. Test every button including bumpers, d-pad directions and the stick click buttons known as L3 and R3.",
+        "whatYouCanTestCard2Link": "Button failure guide",
+        "whatYouCanTestCard3Title": "Trigger Pressure Curve",
+        "whatYouCanTestCard3Desc": "Pull each trigger slowly from rest to fully pressed. In Chrome and Edge the Gamepad API shows this as a value climbing from 0.00 to 1.00. A smooth unbroken climb means the trigger potentiometer is healthy. A value that skips to 0.60 the moment you touch it, or sticks at one number, means wear or debris in the mechanism.",
+        "whatYouCanTestCard3Link": "Trigger tuning guide",
+        "whatYouCanTestCard4Title": "Rumble Motor Test",
+        "whatYouCanTestCard4Desc": "Confirm both vibration motors fire correctly. This tester checks basic motor function on all controllers. For PS5 DualSense adaptive haptics and Xbox impulse trigger analysis, our dedicated vibration tester goes deeper.",
+        "whatYouCanTestCard4Link": "dedicated vibration tester",
+        "whyTestHeading": "30 Seconds Now Saves $70 Later",
+        "whyTestSubtext": "Stick drift follows a predictable pattern. Most people miss it until it has already affected weeks of gameplay. Here is how it progresses:",
+        "whyTestItem1Title": "Months 1 to 3: Monitor Zone (axis values 0.08 to 0.12)",
+        "whyTestItem1Desc": "Your stick rests slightly off center but below the concern threshold of 0.14. You will not notice anything wrong in gameplay. This is the perfect time to test and record your baseline. If you catch drift here, a 50% isopropyl alcohol flush around the stick base costs almost nothing and takes five minutes. See our stick drift guide for the exact method.",
+        "whyTestItem2Title": "Months 4 to 6: Concern Zone (axis values above 0.14)",
+        "whyTestItem2Desc": "Drift crosses the 0.14 threshold and starts reaching your games before the deadzone filters it out. You begin missing shots, drifting off racing lines or walking into walls without touching the stick. Most people buy a replacement at this point without realising the issue was still fixable at home.",
+        "whyTestItem3Title": "Months 7 and beyond: Full Failure (axis values above 0.25)",
+        "whyTestItem3Desc": "Above 0.25 the drift is obvious and constant. Your character moves on its own. Cleaning rarely works at this stage. The potentiometer itself needs replacing or a new controller is needed, typically $60 to $80. Testing takes 30 seconds. Catching drift at the 0.08 to 0.12 stage is the only way to avoid this outcome.",
+        "whyTestFooter": "Testing takes 30 seconds. Catching drift at the 0.08 to 0.12 stage is the only way to avoid this outcome.",
+        "thresholdScaleTitle": "The full threshold scale explained",
+        "thresholdScale1": "Below 0.10: Excellent. Stick is centered and stable.",
+        "thresholdScale2": "0.10 to 0.14: Acceptable. Worth checking again in 4 to 6 weeks.",
+        "thresholdScale3": "Above 0.14: Early drift confirmed. Clean the stick module now.",
+        "thresholdScale4": "Above 0.25: Advanced drift. Affects gameplay visibly. Repair or replace.",
+        "joyconWarning": "⚠️ **Joy-Con owners need a lower threshold**: Nintendo Switch analog sticks develop micro-drift at values above 0.05, well before the standard 0.14 threshold. If you own Joy-Cons, our [dedicated Joy-Con tester](/joycon-tester) uses a 0.05 detection threshold tuned specifically for Nintendo hardware. Generic testers miss Joy-Con drift entirely until it is far advanced.",
+        "specializedToolsHeading": "Two Issues Need Dedicated Tools",
+        "specializedToolsSubtext": "This tester handles buttons, sticks and triggers identically across all controllers. But two specific hardware types fail differently and need their own diagnostics.",
+        "joyconToolTitle": "Joy-Con Drift Tester",
+        "joyconToolDesc": "Nintendo Switch Joy-Con sticks degrade faster than PS5 or Xbox controllers and develop micro-drift at values above 0.05, far below the standard 0.14 threshold. By the time a generic tester catches it, the drift has already been affecting your gameplay for months. Our Joy-Con tester uses a 0.05 detection threshold tuned for Nintendo hardware and catches the problem at the earliest possible stage.",
+        "joyconToolLink": "Open Joy-Con Tester",
+        "vibrationToolTitle": "Vibration and Haptics Tester",
+        "vibrationToolDesc": "Basic rumble, confirming both motors fire, is covered on this page. But PS5 DualSense uses adaptive haptic technology with variable resistance and textured feedback that requires dedicated diagnostics to test properly. Xbox impulse triggers have separate motors inside each trigger that need individual balance checks. Our vibration tester covers both.",
+        "vibrationToolLink": "Open Vibration Tester",
+        "howToHeading": "How to Test Your Gamepad in 30 Seconds",
+        "howToSubtext": "Follow these steps in order for an accurate diagnosis. The whole process takes less than a minute.",
+        "howToStep1Title": "Step 1: Connect via USB first",
+        "howToStep1Desc": "Bluetooth can hide battery issues and connection drop problems during testing. Start with a USB cable to get a clean unambiguous reading. Once you have confirmed the controller is working, switch to Bluetooth if you need to check wireless performance separately.",
+        "howToStep2Title": "Step 2: Set the controller flat on a desk and do not touch it",
+        "howToStep2Desc": "Watch both stick axis values for 10 seconds without touching anything. Healthy sticks stay below 0.10. Values that creep steadily upward or sit consistently above 0.14 mean drift is present. One brief spike to 0.04 is normal electrical noise and is not drift. Drift is a sustained reading, not a single blip.",
+        "howToStep3Title": "Step 3: Press every button once, deliberately",
+        "howToStep3Desc": "Work through every button one at a time. Watch for a clean single highlight per press. Two highlights on one press is double-registering, which causes double jumps or double shots in games. No highlight despite pressing means a dead switch. Do not forget bumpers, d-pad directions and stick clicks.",
+        "howToStep4Title": "Step 4: Pull each trigger from rest to fully pressed, slowly",
+        "howToStep4Desc": "The value should climb smoothly from 0.00 to 1.00 in Chrome and Edge without skipping. A trigger that jumps straight from 0.00 to 0.60 on first contact means potentiometer wear. A trigger that gets stuck at 0.80 and will not reach 1.00 means debris in the mechanism.",
+        "howToStep5Title": "Step 5: Rotate each stick in a slow full circle",
+        "howToStep5Desc": "The trace should form a clean unbroken circle reaching close to the 1.0 boundary in all directions. Flat edges mean worn stick gates. Jagged lines mean inconsistent potentiometer contact. A circle that does not return to 0.00 at center after you let go confirms drift is present in hardware.",
+        "notDetectedHeading": "Controller Not Showing Up? Fix It in 60 Seconds",
+        "notDetectedSubtext": "95% of detection failures have one of these six causes. Work through them in order before assuming your controller has a problem.",
+        "notDetectedStep1": "**Fix 1: Press any button after the page loads**: Browsers block gamepad access by design until the user physically interacts with the controller. This is a browser security policy, not a bug in this tool. Press any button on your controller after the page has fully loaded and it will register immediately.",
+        "notDetectedStep2": "**Fix 2: Close Steam, the Xbox app or GeForce Experience completely**: These applications take exclusive control of controller input and prevent other programs including your browser from accessing it. Closing the window is not enough. Check your system tray for background icons and quit them completely, then reload this page.",
+        "notDetectedStep3": "**Fix 3: Plug directly into a rear USB port, not a hub**: USB hubs, especially unpowered ones on a desk or monitor, can drop voltage to connected devices. Controllers need steady power to hold a connection. Bypass any hub and plug directly into a rear port on your PC. Front panel USB ports are also less reliable than rear ports because they connect through an internal header.",
+        "notDetectedStep4": "**Fix 4: Remove and re-pair the Bluetooth connection from scratch**: Disconnecting and reconnecting is not the same as re-pairing. Open your operating system Bluetooth settings, find the controller in the paired devices list, remove it completely, then pair it again from scratch as if it were brand new. Stale pairing data causes connection failures that look like a hardware problem but are not.",
+        "notDetectedStep5": "**Fix 5: Use Chrome or Edge**: Chrome and Edge have the most complete and stable Gamepad API implementation available. Firefox supports it with some limitations. Safari support is inconsistent, particularly on iOS. If your controller shows up in Chrome but not your current browser, that is a browser compatibility issue, not a controller or tool issue.",
+        "notDetectedStep6": "**Fix 6: Check whether your USB cable transmits data**: Many USB cables, including ones bundled with controllers, are charge-only and contain no data wires. If the cable charges your phone but the controller is not detected, swap it for a cable you know carries data. The cable that came with your keyboard or mouse is a reliable test.",
+        "notDetectedFooter": "Still not working? See our full troubleshooting guide for OS-specific fixes.",
+        "notDetectedFooterLink": "Full troubleshooting guide",
+        "privacyHeading": "Your Controller Data Stays on Your Device",
+        "privacySubtext": "We built this tester to be used without trust. Here's exactly what happens to your data:",
+        "privacyCard1Title": "🔒 Local Processing Only",
+        "privacyCard1Desc": "All input detection runs inside your browser tab using the Gamepad API. No button presses, axis values, or controller identifiers are transmitted to any server.",
+        "privacyCard2Title": "🔒 No Analytics Trackers",
+        "privacyCard2Desc": "No third-party tracking scripts. No ad network pixels. No session recording tools. No cookies set by this tool.",
+        "privacyCard3Title": "🔒 Zero Storage",
+        "privacyCard3Desc": "No controller data is written to localStorage, sessionStorage, or any database. Close this tab and data is gone.",
+        "privacyCard4Title": "🔒 No Account Required",
+        "privacyCard4Desc": "This tool is 100% anonymous. We don't ask for your email, name, or any login. There is no account system.",
+        "faq1Question": "How do I know if my controller has stick drift?",
+        "faq1Answer": "Set the controller flat on a desk and leave both sticks completely untouched. Watch the axis values for 10 seconds. If either axis reads consistently above 0.14 without any input, early drift is present. If values reach above 0.25, the drift is advanced enough to visibly affect gameplay. A single spike to 0.03 or 0.04 is normal electrical noise and is not drift.",
+        "faq2Question": "Does this gamepad tester work with PS5 DualSense?",
+        "faq2Answer": "Yes. All buttons, analog sticks, triggers and touchpad clicks register correctly in Chrome and Edge. DualSense adaptive haptics require Chrome or Edge specifically as Firefox does not have full DualSense haptic API support. The touchpad functions as a clickable button in all browsers rather than as a full touch surface.",
+        "faq3Question": "Does it work with Xbox Series X and Xbox One controllers?",
+        "faq3Answer": "Yes. Xbox controllers use XInput which Windows and the browser Gamepad API support natively. All buttons, both analog sticks, both triggers as analog values, bumpers, d-pad and stick click buttons register correctly. The Share button may not register in all browsers due to browser-level limitations, not a controller issue.",
+        "faq4Question": "What is the difference between stick drift and a deadzone?",
+        "faq4Answer": "A deadzone is an intentional neutral zone built into games where small stick movements near center are ignored. It exists to prevent micro-movements from causing unintended actions. Drift is the opposite: the controller hardware itself is registering movement without any input. This tester shows raw Gamepad API values before any game deadzone is applied, which means you see hardware-level drift even when your game is currently hiding it.",
+        "faq5Question": "When should I actually test my controller?",
+        "faq5Answer": "Three situations make testing especially useful. First, before your manufacturer warranty expires. Document axis values above 0.14 and you have evidence for a warranty replacement claim. Second, before buying a used controller. A 60-second test catches hidden drift that the seller may not disclose. Third, after attempting a cleaning fix with isopropyl alcohol. Test the axis values before and after to confirm whether the fix worked.",
+        "faq6Question": "Why will my controller not connect to the tester?",
+        "faq6Answer": "Work through these in order. Press any button first as browsers require this interaction to activate gamepad detection. Close Steam or the Xbox app completely as they lock controller access. Switch to Chrome or Edge. Plug directly into a rear USB port and bypass any hub. If using Bluetooth, remove the controller from your OS settings entirely and re-pair from scratch.",
+        "faq7Question": "What is a good axis value at rest?",
+        "faq7Answer": "Below 0.10 is excellent, the stick is centered and stable. Between 0.10 and 0.14 is acceptable but worth retesting in four to six weeks. Consistently above 0.14 means early drift is confirmed. Above 0.25 means the drift will actively move your character or camera in games without any input from you.",
+        "faq8Question": "Does this work on mobile?",
+        "faq8Answer": "Yes on Android with Chrome. Controllers connected via USB-OTG or Bluetooth register correctly. iOS Safari support is limited and unreliable. For the most accurate axis readings and haptic testing, a desktop or laptop with Chrome or Edge gives the best results. Mobile works for basic button and connection checks.",
+        "faq9Question": "Do I need to install anything?",
+        "faq9Answer": "Nothing at all. This tester runs entirely in your browser using the Web Gamepad API, a standard built into Chrome and Edge. No extensions, no downloads, no drivers, no account. Close the tab when you are done and nothing is stored anywhere.",
+        "readyHeading": "Ready to Test?",
+        "readySubtext": "Connect your controller above and press any button to begin your 30-second health check.",
+        "readyCTA": "Back to Top",
+        "viewAllControllers": "View All Guides"
+    },
+    "footer": {
+        "copyright": "© {year} MyGamepadTester",
+        "madeWith": "Made with",
+        "privacyPolicy": "Privacy Policy",
+        "termsOfService": "Terms of Service",
+        "allRightsReserved": "All rights reserved",
+        "about": "About Us",
+        "contact": "Contact",
+        "address": "Address",
+        "hardwareTools": "Hardware Tools"
+    },
+    "contact": {
+        "title": "Contact Us",
+        "subtitle": "Get in touch with the developer behind MyGamepadTester",
+        "infoTitle": "General Inquiries",
+        "infoDesc": "Have a question, suggestion, or found a bug? I'd love to hear from you. The best way to reach me is through X (formerly Twitter).",
+        "twitterTitle": "Twitter / X",
+        "twitterDesc": "Fastest way to get a response. DMs are open.",
+        "developerTitle": "The Developer",
+        "developerDesc": "Built by a passionate gamer for gamers worldwide.",
+        "connectX": "Connect on X",
+        "websiteTitle": "Website Info",
+        "websiteDesc": "Free, browser-based controller diagnostics tool.",
+        "faqTitle": "Frequently Asked Questions",
+        "q1": "Is there a premium version?",
+        "a1": "No, MyGamepadTester is and always will be 100% free.",
+        "q2": "Do you collect my controller data?",
+        "a2": "Everything runs locally in your browser. We don't store or transmit any of your gamepad data.",
+        "q3": "Where can I read your Privacy Policy?",
+        "a3": "You can find all details in our Privacy Policy.",
+        "q4": "Can I request a new feature?",
+        "a4": "Absolutely! Reach out on X with your ideas. Many current features came from user suggestions.",
+        "q5": "What are your Terms of Service?",
+        "a5": "Please review our Terms of Service for complete details."
+    },
+    "about": {
+        "title": "About MyGamepadTester",
+        "developerTitle": "Lead Developer & Creator",
+        "createdBy": "Created by",
+        "developerDescription": "I built this tool to provide gamers with a reliable, free, and accurate way to diagnose controller issues without needing to download sketchy software.",
+        "mainIntro": "We provide the most accurate browser-based controller testing utilities on the web.",
+        "subIntro": "Our tools help you identify stick drift, test button latency, and ensure your hardware is performing at its best.",
+        "missionTitle": "Our Mission",
+        "missionDescription": "To empower gamers and repair technicians with professional-grade diagnostic tools that are instantly accessible from any device.",
+        "offerTitle": "What We Offer",
+        "offerItem1": "Precise analog stick drift detection",
+        "offerItem2": "Real-time trigger pressure monitoring",
+        "offerItem3": "Vibration and haptic feedback testing",
+        "offerItem4": "Polling rate and latency analysis",
+        "offerItem5": "Dead zone calibration assistance",
+        "offerItem6": "Comprehensive repair guides",
+        "trustedByTitle": "Trusted By",
+        "trustedByDescription": "Thousands of gamers, modders, and repair shops worldwide.",
+        "techTitle": "Our Technology",
+        "techDescription": "Built on the modern web stack for maximum performance and compatibility.",
+        "techItem1": "Next.js for lightning-fast page loads",
+        "techItem2": "HTML5 Gamepad API for raw hardware access",
+        "techItem3": "Zero-latency local processing",
+        "techItem4": "Responsive design for mobile testing",
+        "techItem5": "Progressive Web App (PWA) capabilities",
+        "privacyTitle": "Privacy First",
+        "privacyDescription": "All testing is done locally in your browser. No controller inputs or personal data are ever sent to our servers.",
+        "zeroDataTitle": "Zero Data Collection",
+        "zeroDataDescription": "What happens on your device stays on your device.",
+        "innovationTitle": "Continuous Innovation",
+        "innovationDescription": "We constantly update our toolset to support the latest controllers and edge cases.",
+        "recentUpdatesTitle": "Recent Updates",
+        "updateItem1": "Enhanced Hall Effect sensor precision",
+        "updateItem2": "Added Nintendo Switch Joy-Con support",
+        "updateItem3": "Improved vibration testing interface",
+        "updateItem4": "New calibration utility tool",
+        "updateItem5": "Expanded troubleshooting guides",
+        "communityTitle": "Join the Community",
+        "communityDescription": "Help us improve by sharing your feedback and feature requests.",
+        "supportTitle": "Need Support?",
+        "supportDescription1": "Check out our comprehensive guides section for common issues and fixes.",
+        "supportDescription2": "If you can't find what you need, feel free to reach out via our contact page.",
+        "enterpriseSupport": "For business or enterprise inquiries, please contact us directly.",
+        "footerCTA": "Keep your controllers healthy and game on!"
+    },
+    "privacy": {
+        "title": "Privacy Policy",
+        "lastUpdated": "Last Updated: October 2023",
+        "intro": "At MyGamepadTester.com, your privacy is our priority. This policy outlines how we handle data when you use our free online testing tools.",
+        "section1Title": "1. Data Collection & Processing",
+        "section1Sub1": "Local Processing Only: ",
+        "section1Sub1Desc": "Our gamepad testing tools run entirely within your browser. We DO NOT record, store, or transmit any inputs, button presses, analog stick movements, or any other controller diagnostic data to our servers.",
+        "section1Sub2": "Information Automatically Collected: ",
+        "section1Sub2Desc": "Like most standard websites, we collect basic, non-personally identifiable analytics to improve user experience. This may include:",
+        "usageData": "Basic Metrics: Browser type and version, Operating System, Time spent on page, General geographic location (Country/City level).",
+        "analyticsData": "Analytics: We use Google Analytics to track these aggregate statistics.",
+        "gamepadData": "Gamepad Diagnostics: Everything is processed locally. We do not transmit or store your inputs.",
+        "section2Title": "2. How We Use Information",
+        "section2Desc": "The non-identifiable information we collect is used for:",
+        "useItem1": "Understanding how our service is used.",
+        "useItem2": "Improving our website and user experience.",
+        "useItem3": "Preventing abuse and tracking bugs.",
+        "useItem4": "Displaying relevant advertisements.",
+        "section3Title": "3. Cookies and Tracking Technologies",
+        "section3Desc": "We use cookies for essential site functionality and analytics purposes.",
+        "cookieTypes": "Types of cookies we use:",
+        "essentialCookies": "Essential Cookies: Necessary for basic website functionality.",
+        "analyticsCookies": "Analytics Cookies: Used to understand how visitors interact with the site.",
+        "section4Title": "4. Third-Party Services",
+        "section4Desc": "We utilize trusted third-party services that may collect information.",
+        "googleAnalytics": "Google Analytics: Used to monitor site traffic.",
+        "googleAdSense": "Google AdSense: Used to display personalized ads.",
+        "thirdPartyNote": "We are not responsible for the practices employed by websites linked to or from our service, nor the information or content contained therein.",
+        "section5Title": "5. Policy Updates",
+        "section5Desc": "We may update this Privacy Policy periodically. Any changes will be posted on this page with an updated 'Last Updated' date.",
+        "section6Title": "6. Contact Us",
+        "section6Desc": "Inquiries: If you have any questions about this Privacy Policy, please reach out via our Contact page or message us on X.",
+        "section7Title": "7. Children's Privacy",
+        "section7Desc": "Our service is not directed to anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13.",
+        "section8Title": "8. User Rights",
+        "section8Desc": "Depending on your location, you may have the right to:",
+        "rightItem1": "Access personal data we hold about you.",
+        "rightItem2": "Request correction of inaccurate data.",
+        "rightItem3": "Request deletion of your data.",
+        "rightItem4": "Object to our processing of your data.",
+        "rightItem5": "Withdraw consent at any time where relevant.",
+        "section9Title": "9. Data Retention",
+        "section9Desc": "We retain analytics data for the minimum time necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required by law.",
+        "section10Title": "10. Questions",
+        "contactIntro": "If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us.",
+        "emailLabel": "Email:",
+        "contactPage": "Contact Page",
+        "developerLabel": "Developer:"
+    },
+    "terms": {
+        "title": "Terms of Service",
+        "lastUpdated": "Last Updated: October 2023",
+        "intro": "By accessing and using MyGamepadTester.com, you agree to be bound by the following Terms of Service.",
+        "section1Title": "1. Acceptable Use",
+        "section1Sub1": "Permitted Use: ",
+        "section1Sub1Desc": "You may use our free online tools for personal or commercial diagnostic purposes (e.g., testing controllers in a repair shop).",
+        "section1Sub2": "Prohibited Activities: ",
+        "section1Sub2Desc": "You agree not to:",
+        "prohibitItem1": "Attempt to overload, crash, or intentionally disrupt our servers.",
+        "prohibitItem2": "Scrape, crawl, or extract data points automatically without permission.",
+        "prohibitItem3": "Embed our tools in an iframe on a commercial website and present them as your own.",
+        "prohibitItem4": "Use the site for any illegal or unauthorized purpose.",
+        "prohibitItem5": "Attempt to bypass any ad-blocking detection or security measures.",
+        "section2Title": "2. Disclaimer of Warranties",
+        "section2Desc": "Our tools rely on the HTML5 Gamepad API provided by your specific web browser. We do not guarantee 100% accuracy, as hardware translation varies heavily by browser, OS, and controller firmware.",
+        "warrantyItem1": "The service is provided \"AS IS\" without warranty of any kind.",
+        "warrantyItem2": "We do not warrant that the service will be uninterrupted or error-free.",
+        "warrantyItem3": "We do not warrant that the results obtained from using the service will be accurate or reliable.",
+        "warrantyNote": "NOTE: Hardware damage diagnostics are suggestions, not absolute professional advice.",
+        "section3Title": "3. Limitation of Liability",
+        "section3Desc": "Under no circumstances shall MyGamepadTester, its developer, or affiliates be held liable for:",
+        "liabilityItem1": "Direct, indirect, incidental, special, or consequential damages.",
+        "liabilityItem2": "Loss of profits, data, use, goodwill, or other intangible losses.",
+        "liabilityItem3": "Damage resulting from actions taken based on our diagnostics.",
+        "liabilityItem4": "Issues arising from third-party links or services.",
+        "section4Title": "4. Intellectual Property",
+        "section4Sub1": "Ownership:",
+        "section4Sub1Desc": "All original content, designs, code, and text on this site are the intellectual property of MyGamepadTester.",
+        "section4Sub2": "Developer:",
+        "section4Sub2Desc": "The site was created and is maintained by",
+        "section4Sub3": "Usage:",
+        "section4Sub3Desc": "You may link to our tools and quote our articles, provided you give appropriate credit.",
+        "section5Title": "5. External Links",
+        "section5Desc": "Our website contains links to third-party web sites or services that are not owned or controlled by us. We assume no responsibility for the content, privacy policies, or practices of any third party web sites or services.",
+        "section6Title": "6. Governing Law",
+        "section6Desc": "These Terms shall be governed and construed in accordance with the laws of the applicable jurisdiction, without regard to its conflict of law provisions.",
+        "section7Title": "7. Privacy",
+        "section7Desc": "Your use of the site is also governed by our Privacy Policy. Please review our Privacy Policy to understand our practices.",
+        "controllerPrivacy": "Controller Data Privacy: We reiterate that all controller diagnostic data is processed locally in your browser and is never stored on our servers.",
+        "section8Title": "8. Changes to Terms",
+        "section8Desc": "We reserve the right, at our sole discretion, to modify or replace these Terms at any time. By continuing to access or use our Service after those revisions become effective, you agree to be bound by the revised terms.",
+        "section9Title": "9. Modifications to Service",
+        "section9Desc": "We reserve the right to modify or discontinue, temporarily or permanently, the service (or any part thereof) with or without notice. You agree that we shall not be liable to you or to any third party for any modification, suspension or discontinuance of the service.",
+        "section10Title": "10. User Conduct",
+        "section10Desc": "You agree not to use the service in any way that violates applicable laws or regulations, or infringes on the rights of others. This includes but is not limited to harassing, threatening, or defrauding other users.",
+        "section11Title": "11. Contact",
+        "section11Desc": "For any inquiries regarding these terms, please contact us.",
+        "websiteLabel": "Website Contact:",
+        "developerLabel": "Developer:",
+        "onX": "(on X, formerly Twitter)",
+        "section12Title": "12. Entire Agreement",
+        "section12Desc": "These Terms constitute the entire agreement between us regarding our Service, and supersede and replace any prior agreements we might have had between us regarding the Service."
+    },
+    "calibration": {
+        "title": "Joystick Calibration Tool Online - Fix Dead Zones & Stick Drift",
+        "hero": {
+            "title": "Pro-Level Joystick Calibration",
+            "subtitle": "The most advanced browser-based diagnostic tool for analog stick health. Measure neutral jitter, axis range, and response curves with precision.",
+            "cta": "Start Full Diagnostic"
+        },
+        "signals": {
+            "browser": "Direct Browser Access",
+            "noInstall": "Zero Installation",
+            "usbBt": "USB & Bluetooth Support",
+            "steamDeck": "Steam Deck Optimized",
+            "noData": "Privacy First Design"
+        },
+        "intro": "Gamepad analog sticks use physical potentiometers that wear out over time. This tool allows you to visualize that wear, measure it in raw percentages, and determine exactly what deadzone settings you need to compensate for stick drift.",
+        "tip": {
+            "label": "PRO TIP:",
+            "pre": "Always run our",
+            "link": "Stick Drift Test",
+            "post": "first to see if your character moves without input."
+        },
+        "tldr": {
+            "title": "TL;DR - Why calibrate?",
+            "text": "Calibration synchronizes your controller hardware with your software. It ensures that 'Center' on your stick matches '0,0' in your game, eliminating unwanted movement and restoring precise aiming."
+        },
+        "glossary": {
+            "title": "Calibration Glossary",
+            "neutral": {
+                "name": "Neutral Center",
+                "desc": "The resting position of your stick. Ideally close to 0.00."
+            },
+            "deadzone": {
+                "name": "Dead Zone",
+                "desc": "The small area around center where input is ignored to prevent drift."
+            },
+            "range": {
+                "name": "Axis Range",
+                "desc": "The full distance a stick travels from center to edge."
+            },
+            "bias": {
+                "name": "Directional Bias",
+                "desc": "When a stick pulls favored toward one direction even when centered."
+            },
+            "sensitivity": {
+                "name": "Linearity/Sensitivity",
+                "desc": "How movement speed scales from the center outward."
+            }
+        },
+        "symptoms": {
+            "title": "Identify Your Problem",
+            "thSymptom": "Symptom",
+            "thCause": "Likely Cause",
+            "thFix": "Recommended Fix",
+            "camera": {
+                "name": "Spinning Camera",
+                "cause": "High neutral offset",
+                "fix": "Increase Inner Deadzone"
+            },
+            "pulling": {
+                "name": "Pulling to Left/Right",
+                "cause": "Potentiometer wear",
+                "fix": "Recalibrate in OS"
+            },
+            "sprint": {
+                "name": "Cannot Sprint",
+                "cause": "Compressed outer range",
+                "fix": "Decrease Outer Deadzone"
+            },
+            "menus": {
+                "name": "Menu Skipping",
+                "cause": "Input jitter at rest",
+                "fix": "Cleaning or Anti-Drift"
+            },
+            "sluggish": {
+                "name": "Sluggish Turning",
+                "cause": "Worn stick gates",
+                "fix": "Decrease Outer Threshold"
+            },
+            "overshoot": {
+                "name": "Target Overshooting",
+                "cause": "Aggressive sensitivity",
+                "fix": "Adjust Response Curve"
+            }
+        },
+        "supportedControllers": {
+            "title": "Tested & Supported Hardware",
+            "psTitle": "PlayStation",
+            "psList": [
+                "DualSense (PS5)",
+                "DualSense Edge",
+                "DualShock 4 (PS4)",
+                "Nacon Revolution"
+            ],
+            "xboxTitle": "Xbox",
+            "xboxList": [
+                "Xbox Series X|S",
+                "Xbox One",
+                "Xbox Elite Series 2",
+                "Xbox 360"
+            ],
+            "nintendoTitle": "Nintendo",
+            "nintendoList": [
+                "Switch Pro Controller",
+                "Joy-Con (Individual)",
+                "Switch Lite",
+                "8BitDo Pro 2"
+            ],
+            "pcTitle": "Other / PC",
+            "pcList": [
+                "Steam Deck",
+                "Logitech F310/F710",
+                "ASUS ROG Raikiri",
+                "Generic HID"
+            ]
+        },
+        "whyMatters": {
+            "title": "Why Precision Calibration Matters",
+            "neutralOffset": {
+                "title": "Eliminate Ghost Input",
+                "desc": "Centered sticks should report zero. We help you find the exact offset to filter out drift."
+            },
+            "deadzoneMisalign": {
+                "title": "Optimize Deadzones",
+                "desc": "Too large a deadzone loses precision; too small creates drift. Find your 'Goldilocks' zone."
+            },
+            "sensitivityScaling": {
+                "title": "Restore Linearity",
+                "desc": "Ensure your 50% stick push results in exactly 50% in-game movement."
+            },
+            "rangeCompression": {
+                "title": "Unlock Full Range",
+                "desc": "Old sticks often lose the ability to reach the 100% outer boundary."
+            },
+            "directionalBias": {
+                "title": "Fix Asymmetry",
+                "desc": "Identify if your stick is easier to push left than right due to spring fatigue."
+            }
+        },
+        "howTo": {
+            "title": "5-Step Calibration Procedure",
+            "thStep": "Step",
+            "thAction": "Action Required",
+            "step1": "Connect your controller via USB for maximum polling rate and accuracy.",
+            "step2": "Press any button to authorize the browser Gamepad API access.",
+            "step3": "Leave both sticks untouched for 5 seconds to measure resting jitter.",
+            "step4": "Rotate both sticks in 3 slow, wide circles to map the outer limits.",
+            "step5": "Review your 'Health Grade' and adjust software settings as recommended."
+        },
+        "visualization": {
+            "title": "Understanding the Data",
+            "inner": "Inner Zone: Area covered by your deadzone setting.",
+            "active": "Active Zone: The usable range where your inputs control the game.",
+            "outer": "Outer Zone: The boundary where stick input reaches 100%."
+        },
+        "metrics": {
+            "title": "Diagnostic Metrics Explained",
+            "neutral": {
+                "title": "Neutral Precision Analysis",
+                "goal": "Ideal Value: 0.000",
+                "thOffset": "Raw Offset",
+                "thStatus": "Health Rating",
+                "excellent": "Excellent - Factory Fresh",
+                "minor": "Minor - Software Fixable",
+                "needs": "Service Recommended",
+                "hardware": "Hardware Failure Imminent"
+            },
+            "types": {
+                "title": "Recommended Deadzones by Game Type",
+                "thType": "Gaming Genre",
+                "thInner": "Min. Deadzone",
+                "thWhy": "Reasoning",
+                "fps": "Competitive FPS",
+                "fpsWhy": "Maximum response for aiming",
+                "racing": "Racing / Sim",
+                "racingWhy": "Smooth steering transitions",
+                "casual": "Action / Adventure",
+                "casualWhy": "Balanced for comfort",
+                "fighting": "Fighting Games",
+                "fightingWhy": "Quick directional inputs"
+            },
+            "range": {
+                "title": "Full Scale Range Accuracy",
+                "text": "Sticks should reach 1.000 in all four cardinal directions. Values below 0.95 mean you cannot achieve maximum speed or turn rate in some games."
+            }
+        },
+        "curves": {
+            "title": "Joystick Sensitivity & Response Curves",
+            "thCurve": "Curve Profile",
+            "thBestFor": "Best For",
+            "thFeel": "In-Game Feel",
+            "linear": {
+                "name": "Linear (Default)",
+                "best": "General gaming & RPGs",
+                "feel": "Consistent 1:1 movement across the entire range."
+            },
+            "exponential": {
+                "name": "Exponential / Dynamic",
+                "best": "Competitive FPS (Sniping)",
+                "feel": "Slow near center for precision, fast at edges for turns."
+            },
+            "sCurve": {
+                "name": "S-Curve (Instant)",
+                "best": "Racing & Fighting games",
+                "feel": "Standard near center, aggressive ramp-up at mid-tilt."
+            }
+        },
+        "platforms": {
+            "title": "Platform-Specific Calibration Guides",
+            "playstation": {
+                "name": "PlayStation",
+                "title": "PS5 DualSense Calibration",
+                "path": "Settings > Accessories > Controller > Calibration",
+                "desc": "Official calibration is only available for DualSense Edge modules. For standard controllers, deadzones must be set in each game.",
+                "tips": "If drift persists, use the 'Reset' button on the back of the controller for 5 seconds."
+            },
+            "xbox": {
+                "name": "Xbox",
+                "title": "Xbox Accessories App",
+                "path": "Xbox Accessories > Configure > Recalibrate",
+                "desc": "Microsoft recently released a firmware-level calibration tool for Series X|S and Elite controllers.",
+                "elite": "Elite Series 2 users can also adjust physical stick tension for better centering."
+            },
+            "switch": {
+                "name": "Switch",
+                "title": "System Settings Calibration",
+                "path": "System Settings > Controllers and Sensors > Calibrate Control Sticks",
+                "desc": "Nintendo provides a robust calibration tool that writes offsets directly to the Joy-Con or Pro Controller firmware.",
+                "tips": "Try updating your controller firmware first if calibration fails to save."
+            },
+            "steam": {
+                "name": "Steam",
+                "title": "Steam Input Calibration",
+                "path": "Steam Settings > Controller > Calibration & Advanced Settings",
+                "desc": "Steam provides the world's best software deadzone tool. It can fix even severe 0.25+ hardware drift.",
+                "bestFor": "PC gamers who want a one-time fix for all their games."
+            },
+            "windows": {
+                "name": "Windows",
+                "title": "Control Panel (Legacy)",
+                "path": "Control Panel > Devices and Printers > Game Controller Settings",
+                "desc": "The legacy Windows tool is decent for basic centering but lacking for modern high-resolution sticks.",
+                "limitations": "Does not support deadzone customization; only raw center calibration."
+            }
+        },
+        "helps": {
+            "title": "Pro Repair Shop Secrets",
+            "yesTitle": "Fixable via Calibration",
+            "yes": [
+                "Minor stick drift (under 0.12)",
+                "Spring fatigue (not returning to 0)",
+                "Asymmetrical sensitivity",
+                "Limited range (stuck at 0.90)",
+                "Inconsistent deadzones"
+            ],
+            "noTitle": "Requires Hardware Repair",
+            "no": [
+                "Severe drift (over 0.30)",
+                "Loose / wobbly stick stems",
+                "Clicking / Grinding noises",
+                "Erratic jitter (electrical failure)",
+                "Missing cardinal directions"
+            ]
+        },
+        "paa": {
+            "title": "People Also Ask About Controller Health",
+            "q1": {
+                "q": "Can I fix stick drift without opening the controller?",
+                "a": "Yes. Most minor drift (0.10 - 0.14) can be fixed by increasing your software deadzone or using a firmware-level calibration tool provided by your console manufacturer."
+            },
+            "q2": {
+                "q": "How often should I calibrate my controller?",
+                "a": "We recommend a quick check-up every 3 months. Like a car's wheel alignment, controller potentiometers drift slowly as the carbon tracks wear down."
+            },
+            "q3": {
+                "q": "What is the 'perfect' deadzone setting?",
+                "a": "The perfect deadzone is the lowest possible number that does not result in drift. For a new controller, this is usually 3-5%. For an older one, 10-15% is common."
+            },
+            "q4": {
+                "q": "Does calibration fix double-clicking buttons?",
+                "a": "No. Calibration only affects analog sticks and triggers. Double-clicking is a mechanical switch failure that requires contact cleaner or replacement."
+            },
+            "q5": {
+                "q": "Why does my PS5 controller drift more than my PS4 one?",
+                "a": "PS5 DualSense controllers use higher-tension springs and more sensitive potentiometers, which can make tiny wear patterns more noticeable in high-stakes games."
+            },
+            "q6": {
+                "q": "Are Hall Effect sticks better?",
+                "a": "Generally, yes. Hall Effect sensors use magnets and have no physical contact, meaning they are technically immune to the carbon-wear drift found in standard controllers."
+            },
+            "q7": {
+                "q": "Can a low battery cause stick drift?",
+                "a": "Indirectly, yes. Low voltage can cause inconsistent readings from the analog sensors, leading to jitter that looks like drift but disappears once charged."
+            },
+            "q8": {
+                "q": "Is drift covered under manufacturer warranty?",
+                "a": "Most manufacturers (Sony, Microsoft, Nintendo) consider 'drift' a defect if it occurs within the first year. Use our health certificate as proof for your claim."
+            }
+        },
+        "finalCta": {
+            "title": "Ready for a Health Check?",
+            "subtitle": "Join 50,000+ gamers who use our tools to extend their controller's lifespan.",
+            "tech": "All tests run 100% locally in your browser - no data is ever stored.",
+            "button": "Back to Diagnostic"
+        }
+    },
+    "guides": {
+        "title": "Gamepad & Controller Guides",
+        "intro": "Step-by-step instructions for fixing stick drift, calibrating controllers, and optimizing performance.",
+        "stickDriftTitle": "Stick Drift Fix",
+        "stickDriftDesc": "How to diagnose and fix controller drift at home.",
+        "calibrationTitle": "Calibration Guide",
+        "calibrationDesc": "Master your controller settings for perfect accuracy.",
+        "vibrationTitle": "Haptic Feedback",
+        "vibrationDesc": "Troubleshooting vibration and haptic issues."
+    },
+    "common": {
+        "learnMore": "Learn More",
+        "testNow": "Test Now",
+        "readMore": "Read More",
+        "viewAll": "View All",
+        "free": "Free",
+        "online": "Online",
+        "noDownload": "No Download",
+        "startTest": "Start Test",
+        "backToHome": "Back to Home",
+        "exportPDF": "Export PDF",
+        "downloadReport": "Download Report",
+        "shareResults": "Share Results",
+        "testAgain": "Test Again"
+    },
+    "stats": {
+        "title": "Global Hardware Health Dashboard",
+        "description": "Real-time analytics aggregated from millions of controller, mouse, and keyboard diagnostic sessions worldwide.",
+        "aggregating": "Aggregating Millions of Hardware Tests...",
+        "allTime": "All Time",
+        "last30": "Last 30 Days",
+        "last7": "Last 7 Days",
+        "last24": "Last 24 Hours",
+        "totalTests": "Total Sessions",
+        "healthAverage": "Avg Health Score",
+        "driftFailures": "Drift Incidents",
+        "topTitle": "Most Tested Controllers",
+        "matrixTitle": "Common Failure Points",
+        "uses": "Tests",
+        "noData": "Awaiting fresh data sync...",
+        "live": "Live Cloud Sync",
+        "dbStatus": "Operational Status",
+        "driftL": "Left Stick Drift",
+        "driftR": "Right Stick Drift",
+        "latency": "Input Latency Issues",
+        "buttons": "Button Actuation Failures",
+        "incidents": "Flagged"
+    },
+    "tools": {
+        "button": {
+            "title": "Controller Button Tester",
+            "description": "Quickly locate failing membrane pads and sticky mechanical switches. This isolated tool tests the connection integrity of every face button, D-Pad directional, and shoulder bumper on your gamepad.",
+            "h2": "Common Button Hardware Failures",
+            "h3_1": "1. Sticky Face Buttons (A, B, X, Y)",
+            "p_1": "If you press a button and it takes more than half a second to physically pop back up (while the orange light here stays illuminated), you have a \"sticky switch.\" This is almost always caused by sugary drinks or hand oils migrating beneath the plastic button housing and gumming up the silicone membrane pad underneath. A quick teardown and Isopropyl alcohol wipe is usually the only fix required.",
+            "h3_2": "2. Unresponsive Shoulder Bumpers (LB / RB / L1 / R1)",
+            "p_2": "Unlike the rubber-dome face buttons, modern shoulder bumpers often use cheap tactile micro-switches soldered directly to the motherboard. If you press RB and it doesn't light up here (or you have to press it incredibly hard), the internal metal dome inside the microswitch has collapsed. This requires desoldering a new switch onto the board."
+        },
+        "trigger": {
+            "title": "Gamepad Analog Trigger Tester",
+            "description": "Unlike D-Pads, modern LT and RT triggers are analog. Their physical inputs operate on a scale from 0% to 100%, allowing for precise acceleration in racing games and trigger-pull mechanics in shooters. Find the exact actuation threshold and identify spring failures here.",
+            "h2": "Understanding Trigger Fatigue",
+            "h3_1": "1. Broken Springs (Resting Inputs)",
+            "p_1": "If you put your controller down and the graph above shows a resting value of 2-5%, the physical torsion spring inside the trigger mechanism has snapped or weakened. This causes your player to mistakenly \"walk\" or slowly consume stamina in games like EA FC.",
+            "h3_2": "2. Maximum Threshold Limitation",
+            "p_2": "Squeeze the trigger as hard as you can. If the bar rests at 85% - 95% and outright refuses to hit the 100.0% mechanical cutoff, the potentiometer track has degraded. You will be unable to hit maximum acceleration in racing games like Forza or F1 without tweaking the outer deadzone on your console."
+        },
+        "inputLag": {
+            "title": "Controller Input Lag & Latency Tester",
+            "description": "Ever wondered why your competitive game feels slightly \"heavy\" or non-responsive? Your controller's hardware polling rate (measured in Hz) dictates how fast electrical inputs are communicated to your CPU. Track your raw polling intervals to permanently eliminate input-lag bottlenecks.",
+            "headerDescription": "Professional-grade real-time hardware latency and polling rate analysis",
+            "h2": "What Is Controller Input Lag and Latency?",
+            "intro1": "Input lag is the delay between pressing a button on your controller and the moment that input reaches the game. It is measured in milliseconds (ms), and even small amounts are noticeable in fast-paced games. In an FPS, a fighting game, or a rhythm game, the difference between a clean hit and a missed input can come down to 20ms or less. Most players feel the lag but have no idea how to measure it.",
+            "intro2": "This is what a controller input lag and latency tester is for. It gives you a real number for your controller's response time, so you stop guessing and start fixing. The tool measures the hardware communication latency from button press to browser registration, shows you whether your controller is consistent or spiking, and lets you compare your wired and wireless setups side by side. You find out if your controller is the problem, or if something else in your setup is to blame.",
+            "bridge1": "Even a 20ms difference between your wired and wireless setup can affect your timing in a fighting game, and most players have never actually measured it.",
+            "howWorksTitle": "How the Input Lag and Latency Test Works",
+            "howWorks1": "The tool runs entirely in your browser using the HTML5 Gamepad API paired with a high-precision timer called performance.now(). When you press a button, the tool captures two timestamps: the moment your controller's microchip reports the button state as active, and the moment the browser engine receives and processes that data packet. The gap between those two moments is your timestamp delta, which is the latency figure displayed on screen.",
+            "howWorks2": "Everything happens locally on your device. Nothing is uploaded to a server. The tool uses a configurable sampling interval and a debounce window to filter out mechanical noise and prevent a single physical press from registering multiple times. You get per-press latency for every input, along with running min, avg, and max values that update in real time.",
+            "howWorks3": "One important thing to understand: this is a comparative indicator, not an absolute hardware measurement. Measuring true end-to-end latency from finger to pixel requires external sensors like a photodiode and oscilloscope. What this tool measures is hardware communication latency, the part generated by your controller and its connection method. That is the most useful number for diagnosing your setup, comparing two controllers, or checking the difference between USB and Bluetooth.",
+            "stepsTitle": "How to Use the Input Lag and Latency Test: Step-by-Step",
+            "step1": "Connect your controller. Plug in via USB or pair via Bluetooth through your OS settings. For best results, always start with a wired connection. Plug directly into a rear motherboard USB port, not a front panel port or USB hub.",
+            "step2": "Open the tool and allow browser access. If prompted, click allow for gamepad access. Press any button to wake the controller so the Gamepad API can detect it.",
+            "step3": "Choose your test button. Select a button from the dashboard (the A button or Cross button is a common choice). This is the button you will press during the test.",
+            "step4": "Observe the cues. When the on-screen cue box turns blue and shows \"PRESS NOW!\", press your chosen button as quickly as you can. Your latency for that press appears instantly.",
+            "step5": "Repeat at least 10 times. A single press is not reliable. Run 10 or more presses at a relaxed, consistent pace. The tool builds your average, best, and worst scores with each press.",
+            "step6": "Export or compare. Once you have a stable reading, you can export your results as a CSV file with full timestamps. To measure your controller's response time across connection types, run the test once wired and once wireless and compare the averages.",
+            "bridge2": "Once you have run at least 10 presses, the average and variance give you a reliable picture of your controller's actual behavior.",
+            "featuresTitle": "Key Features of the Input Lag and Latency Test",
+            "feat1Title": "Min, Avg, Max Latency Readout",
+            "feat1Desc": "The tool tracks three values across all your test presses: the minimum (fastest recorded response), the average (most useful for real comparisons), and the maximum (slowest response, which reveals spikes). Average is the number you should pay attention to most. A controller with a low minimum but a high maximum has a jitter problem, meaning its responses are inconsistent, which is often more disruptive in gameplay than a slightly higher but stable latency.",
+            "feat2Title": "Real-Time Bar Visualization",
+            "feat2Desc": "Every press generates a live bar in the real-time visualization, so you can see how consistent your latency is at a glance. A flat row of bars of similar height means your controller is performing steadily. Tall outlier bars indicate a spike, which could mean interference, CPU load, or a connection issue. This visual makes it easy to spot problems without having to read raw numbers.",
+            "feat3Title": "Wired vs Wireless Comparison Mode",
+            "feat3Desc": "Run the test wired first to get a baseline, then switch to Bluetooth and run it again. The configurable polling interval and debounce window stay consistent across both runs, so you are comparing like-for-like. The difference between your two averages gives you the real cost of going wireless with your specific controller. This is more useful than any published benchmark because it reflects your exact hardware, OS, and environment.",
+            "feat4Title": "CSV Export for Logging",
+            "feat4Desc": "After testing, you can export a CSV file with timestamped rows for every press event. Use this for statistical analysis across multiple sessions, to document improvements after a firmware update, or to provide evidence for a warranty claim. The export includes per-press latency values, so you can calculate your own median and percentile data if you want to go deeper than min/avg/max.",
+            "readingResultsTitle": "How to Read Your Latency Results",
+            "reading1": "The benchmark numbers to know are: under 20ms is excellent and is typical of professional-grade wired controllers in competitive gaming setups. 20 to 40ms is good and covers the range where most competent casual and action game players will feel no issues. 40 to 100ms is noticeable, especially in fighting games and rhythm titles, and is worth investigating. Above 100ms is a real problem and suggests a connection issue, heavy CPU load, or a hardware fault.",
+            "reading2": "Keep in mind that this test includes your reaction time as part of the total reading. Human reaction time naturally varies by 20 to 50ms between attempts, so focus on the average across multiple presses rather than any single result. If specific buttons produce consistent spikes that others do not, the issue may be hardware-level. You can <a href='/button-test'>check whether individual buttons are registering cleanly</a> with a dedicated button test to rule out a contact or carbon pad issue on those specific inputs.",
+            "causesLagTitle": "What Actually Causes Controller Input Lag",
+            "causes1": "The largest single source of latency variation is your connection type. A USB-connected controller communicates at a polling rate of 125Hz by default, which means the host asks the controller for an update every 8ms. Some advanced controllers or firmware upgrades can push this to 250Hz (4ms), 500Hz (2ms), or even 1000Hz (1ms). Bluetooth operates differently. Modern Bluetooth 5.0 hardware like the DualSense can perform competitively under perfect conditions, but is highly vulnerable to jitter from the crowded 2.4GHz spectrum shared by routers, microwaves, and phones. One dropped packet forces a retransmission, which shows up as a spike in your latency data.",
+            "causes2": "Beyond the controller itself, your PC setup adds its own stack of delays. The OS processes inputs before passing them to apps, typically adding 10 to 30ms depending on CPU speed and game engine optimization. Running in borderless windowed mode forces the Desktop Window Manager to process an additional frame, silently adding roughly 15ms. V-Sync buffers frames before display, which adds noticeable floaty lag. Steam Input adds 1ms overhead for most devices (up to 3ms for some wireless setups). Plugging your controller into a USB hub shared with a mouse and webcam introduces internal routing delays that you may not notice until you test.",
+            "causes3": "Forum users testing controller setups have flagged specific patterns worth knowing. One tested finding is that the DS4 Bluetooth sometimes outperforms its wired mode on PC due to a higher Bluetooth polling implementation, which caught many users by surprise. Users also note that proprietary 2.4GHz dongles (like the Xbox Wireless Adapter) reliably outperform standard Bluetooth, adding only 2 to 8ms versus 10 to 30ms for Bluetooth. A browser-based test will not catch all of these nuances, but running both connection types back to back on the same tool gives you the clearest practical comparison available without external hardware.",
+            "wiredVsTitle": "Wired vs Wireless: What the Numbers Actually Show",
+            "wired1": "Wired USB delivers the lowest latency floor and the tightest standard deviation, meaning not just faster but more consistent results. When you plug directly into a rear motherboard port using a quality USB-C data cable (not a charging-only cable), your controller communicates over a stable, dedicated protocol. Wireless introduces variables that software-level testing can catch in aggregate, even if it cannot trace individual packet delays. The practical average advantage of wired over standard Bluetooth is around 4 to 5ms, though this number varies significantly based on environment and controller model.",
+            "wired2": "The more important comparison is often not the absolute minimum but the spike frequency. A wireless controller with an average of 22ms but occasional 80ms spikes is harder to play with than a wired controller averaging 25ms with no spikes at all. Consistent latency is more valuable than the lowest single reading. Use the tool to compare your wired and wireless latency directly, then look at the max values as much as the averages to understand which connection is actually more stable for your specific setup.",
+            "tipsTitle": "Tips to Get the Lowest Latency Before You Test",
+            "tips1": "Always use Chrome or Edge for the most consistent Gamepad API behavior. Firefox works but may show slightly higher or more variable readings. Safari is not recommended for latency testing. Before opening the tool, close background applications, especially recording software, virtualization tools, and browser tabs with heavy JavaScript. These compete for CPU time on the event loop and cause artificial spikes in your readings.",
+            "tips2": "Set your Windows power plan to High Performance before testing. CPU throttling under a balanced or power-saver plan can cause uneven scheduling that appears as latency spikes in the tool. If you use Steam, either close it entirely or disable the Steam Input overlay for the test session. Leaving Steam Input active adds 1 to 3ms and can also interfere with direct Gamepad API access. For wireless testing, make sure your controller is charged above 50% and that you are not near a 2.4GHz router or other wireless devices.",
+            "tips3": "Run your first 3 to 5 presses as a warmup and discard them. The initial readings as the browser and OS settle into the session tend to be higher than subsequent ones. After the warmup, run at least 10 more presses and read the median rather than the average if you see obvious outliers. If your analog sticks also feel off during the same session, consider running a <a href='/deadzone-test'>test of your analog stick dead zones</a> as a separate check, since dead zone miscalibration can compound the feeling of lag in games even when the hardware latency itself is fine.",
+            "faqTitle": "Frequently Asked Questions",
+            "faqQ1": "Is this tool measuring my reaction time or my controller's actual latency?",
+            "faqA1": "Both are included in the result. The test measures the time from when the visual \"PRESS NOW\" cue appears to when your button press registers in the browser. That pipeline includes your visual processing, neural response, muscle movement, the controller's hardware transmission, and browser processing. Your reaction time alone typically varies 20 to 50ms between attempts. To isolate controller hardware latency, compare your results across connection types (wired vs wireless) rather than using the absolute number, since relative differences are what matter most for hardware diagnosis.",
+            "faqQ2": "What is a good controller latency score in milliseconds?",
+            "faqA2": "Under 20ms is excellent and is what professional competitive setups typically achieve with wired connections. 20 to 40ms is good and covers the range most players will find perfectly responsive in action games and casual competitive play. Above 40ms is noticeable in timing-sensitive genres like fighting games and rhythm games. For context, professional-grade controllers have 1 to 8ms of pure hardware latency before any browser or OS overhead is added.",
+            "faqQ3": "Why does my Bluetooth controller show higher latency than wired?",
+            "faqA3": "Bluetooth adds encoding, transmission, and decoding steps that USB bypasses entirely. Standard Bluetooth typically adds 10 to 30ms over a wired USB baseline, though proprietary 2.4GHz dongles (like the Xbox Wireless Adapter) add only 2 to 8ms. Bluetooth is also susceptible to interference from Wi-Fi routers, phones, and other 2.4GHz devices near your setup. If your wireless latency is unusually high, move your controller closer to the receiver, move interference sources away, and retest.",
+            "faqQ4": "Does the test work with PS5, Xbox Series X, and Nintendo Switch controllers?",
+            "faqA4": "Yes. The tool supports any controller that uses XInput (Xbox) or HID protocol (PlayStation, Nintendo, most third-party devices). This includes the PS5 DualSense, PS4 DualShock 4, Xbox Series X/S controller, Xbox One controller, Nintendo Switch Pro Controller, and Joy-Cons. Connect via USB or pair via Bluetooth before opening the tool, then press any button to register the controller with the Gamepad API.",
+            "faqQ5": "Why do my results spike on some presses but not others?",
+            "faqA5": "Latency spikes in an otherwise consistent session are almost always caused by one of three things: Bluetooth interference from nearby 2.4GHz devices, background processes on your PC competing for CPU time during a JavaScript event loop tick, or traffic routing through a USB hub rather than a direct motherboard port. Close unnecessary apps, plug directly into a rear motherboard USB port, and re-run the test. If spikes persist with a wired connection, check your Windows power plan and make sure CPU throttling is disabled.",
+            "faqQ6": "Do I need to download anything to use this tool?",
+            "faqA6": "No. The input lag and latency test runs entirely inside your browser using the HTML5 Gamepad API. There is no software to install, no account to create, and no registration required. Chrome or Edge are recommended for the most reliable results, but the tool works in any modern browser that supports the Gamepad API.",
+            "faqQ7": "Can this tool measure display or monitor latency too?",
+            "faqA7": "No. Measuring display latency requires external hardware: a high-speed camera or a photodiode connected to an oscilloscope. These measure the time from a signal being sent to visible pixels changing on screen, which is not readable via software alone. This tool measures hardware communication latency, the delay generated by your controller and its connection to the browser. That is the most actionable number for diagnosing controller and connection issues.",
+            "faqQ8": "How many times should I run the test to get a reliable reading?",
+            "faqA8": "Run at least 10 presses after a short 3 to 5 press warmup that you discard. The more presses you run, the more stable your average becomes. If you are seeing high variance, run 20 or more. Use the median value if several obvious outlier spikes are pulling your average up. For a proper before-and-after comparison (for example, testing firmware update improvements or wired vs wireless), run the same number of presses in each session so the comparison is valid."
+        },
+        "deadzone": {
+            "title": "Visual Deadzone Simulator",
+            "description": "A \"Deadzone\" is a software parameter that ignores raw hardware inputs below a certain threshold. Use our visualizer to input your exact in-game settings (e.g., 5% inner deadzone) and see exactly when your thumbstick breaks that barrier to register movement.",
+            "h2": "How to Optimize Your Deadzones using this Tester",
+            "h3_1": "1. Fixing Stick Drift (Inner Deadzone)",
+            "p_1": "Plug in your controller. Do not touch the thumbsticks. If the green light is illuminating inside our tester, your hardware is registering a ghost input. Slowly increase the Inner Deadzone % above until the light turns off. This is the exact number you must input into your game (Apex, Fortnite, Warzone) to eliminate drift.",
+            "h3_2": "2. Maximum Turn Speed (Outer Deadzone)",
+            "p_2": "If your left thumbstick feels \"heavy\" or your right thumbstick doesn't seem to hit maximum turning speed fast enough, decrease the Outer Deadzone %. This shrinks the outer boundary, meaning you don't have to slam the analog stick into the plastic perimeter to register a 100% input signal."
+        },
+        "stickDrift": {
+            "title": "Diagnostic Stick Drift Tester",
+            "description": "Standard deadzone settings in most games mask the early signs of hardware failure. By tapping directly into the raw HTML5 Gamepad API, this visualizer exposes the exact microscopic variances (down to 5 decimal points) causing your in-game crosshair to drag entirely on its own.",
+            "h2": "How to Accurately Test for Stick Drift",
+            "li_1": "Plug your controller in via USB or sync it through Bluetooth.",
+            "li_2": "Move both the Left and Right analog sticks in complete 360-degree circles twice.",
+            "li_3": "Remove your thumbs entirely and allow the sticks to physically snap back to center.",
+            "li_4": "Observe the raw axis values on the dashboard above. They should ideally return to 0.00000.",
+            "h3_worry": "When to Worry About Drift",
+            "p_worry_1": "No analog stick is perfect. Most brand new controllers rest somewhere around 0.03000 due to the physical tension of the dome spring returning the stick to a neutral state.",
+            "p_worry_2": "However, if your controller rests at 0.08000 or higher, you are experiencing significant drift. If the number bounces erratically without you touching it, the internal carbon track potentiometer is failing and the module needs replacement or cleaning."
+        },
+        "keyboard": {
+            "title": "Keyboard Tester: NKRO & Latency Diagnostics",
+            "description": "A professional-grade hardware diagnostic tool to verify your mechanical keyboard's health. Test your N-Key Rollover (NKRO), detect mechanical switch chatter, measure raw polling response times, and uncover PCB ghosting matrices.",
+            "h2": "How to Read Your Keyboard Health Diagnostics",
+            "h3_1": "1. N-Key Rollover (NKRO)",
+            "p_1": "NKRO determines how many simultaneous keypresses your keyboard's PCB can transmit to your PC. To test this: mash as many keys as you can with both hands. If the counter maxes out at 6, your keyboard is bottlenecked at \"6KRO\" (common on older USB devices). If you hit 20+, you have true NKRO suitable for elite gaming.",
+            "h3_2": "2. Switch Chatter (Double Registration)",
+            "p_2": "Mechanical keyswords use physical copper leaves. Over time, or due to bad soldering, bouncing leaves send double signals in a fraction of a millisecond. Our tool detects \"chatter\" if the exact same key registers twice in under 30 milliseconds.",
+            "h3_3": "3. Matrix Ghosting",
+            "p_3": "Ghosting happens on cheaper membrane keyboards when hardware circuits \"cross over\". When you press 3 keys simultaneously, an un-pressed 4th key might erroneously register. Finding this prevents disastrous missed inputs in FPS and fighting games."
+        },
+        "mouse": {
+            "title": "Mouse Tester: Switch Chatter Diagnostics",
+            "description": "Omron and Kailh mouse switches are rated for millions of clicks, but voltage under-rating causes physical switch bouncing. Use this real-time diagnostic tool to identify \"chatter\" (unwanted double-clicks under a 50ms interval), dropped scroll wheel inputs, and dead zones.",
+            "h2": "Understanding Your Mouse Switch Diagnostics",
+            "h3_1": "1. Switch Chatter (The \"Double Click\" Bug)",
+            "p_1": "Chatter occurs when a single physical press of your mouse button sends two electrical signals to your PC. This is notoriously common on high-end gaming mice after 1-2 years of intensive use. Our tool captures every click. If the interval between a \"down\" and \"up\" actuation is less than 50 milliseconds, it is almost certainly a hardware failure, not a human double-click.",
+            "h3_2": "2. Fastest Click Gap",
+            "p_2": "A healthy human jitter-click peaks around 12-14 CPS (Clicks Per Second), which translates to an 80ms gap. Drag clicking can lower this to 40ms. If you are normally clicking and registering 12ms gaps, your switch's copper leaf spring is physically bouncing inside the housing and needs replacement.",
+            "h3_3": "3. Scroll Wheel Encoder Skips",
+            "p_3": "Scroll wheels utilize optical or mechanical rotary encoders. Over time, dust or wear causes scrolling to skip a step or temporarily scroll in the opposite direction. By visualizing your scroll inputs here, you can verify if your \"scroll jump\" issue is software-based or a failing internal encoder."
+        },
+        "joycon": {
+            "title": "Nintendo Joy-Con Tester",
+            "relatedTitle": "Related Joy-Con Repair Guides",
+            "guide1": "Joy-Con Drift: The Definitive Fix Guide",
+            "guide2": "How to Replace Joy-Con Joystick Modules"
+        },
+        "vibration": {
+            "title": "Controller Vibration Tester",
+            "relatedTitle": "Related Hardware & Haptics Guides",
+            "guide1": "PS5 DualSense Complete Troubleshooting Guide",
+            "guide2": "Xbox Impulse Triggers Repair Guide"
+        },
+        "sensConverter": {
+            "title": "Aim Sensitivity Converter",
+            "description": "The ultimate pro-grade sensitivity converter for FPS gamers. Instantly match your muscle memory across 100+ games like Valorant, CS2, Apex Legends, Warzone, and Fortnite. No more guessing—just perfect aim translation.",
+            "h2": "How to Convert Your Mouse Sensitivity",
+            "p1": "Seamlessly transfer your aim from one game to another by using our precision-engineered conversion engine. We support the base sensitivity scales of all major battle royale and tactical shooters.",
+            "h3_1": "1. Select Your Games",
+            "p_1": "Choose the game you are currently playing (From) and the game you want to switch to (To). Our database contains the internal math multipliers for over 100 titles to ensure 100% accuracy.",
+            "h3_2": "2. Enter your DPI and Sensitivity",
+            "p_2": "Input your mouse DPI and your current in-game sensitivity. The tool will instantly calculate the CM/360 (real-world distance) and the exact sensitivity value needed for your new game.",
+            "h3_3": "3. Match Your Field of View (FOV)",
+            "p_3": "To maintain true muscle memory, the FOV should ideally match or be scaled. Our converter handles the complex trigonometry required to keep your flicker shots and tracking consistent across different game engines."
+        }
+    }
+}

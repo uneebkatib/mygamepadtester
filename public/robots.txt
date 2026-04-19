@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /widget/
+Disallow: /embed/
+
+Sitemap: https://mygamepadtester.com/sitemap.xml

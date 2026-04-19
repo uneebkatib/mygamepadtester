@@ -1,0 +1,12 @@
+/*    /index.html   200
+
+# Redirect duplicate pages to their canonical versions
+/calibration-tools    /calibration    301
+/performance-analytics    /performance    301
+/trigger-pressure-test    /trigger-test    301
+/dashboard    /    301
+
+# Redirect old article URLs to new ones
+/articles/ps5-controller-not-working    /guides    301
+/articles/xbox-controller-drift-fix    /guides    301
+/articles/gamepad-calibration-guide    /calibration    301
