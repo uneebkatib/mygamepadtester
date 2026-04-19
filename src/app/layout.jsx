@@ -5,7 +5,9 @@ import Script from 'next/script'
 
 const inter = localFont({
     src: '../fonts/Inter-latin.woff2',
-    display: 'swap',
+    // 'optional' gives the font a 100 ms block window then stops waiting;
+    // this eliminates the late font-swap layout shift (CLS) seen on slow 4G connections.
+    display: 'optional',
     variable: '--font-inter',
     preload: true,
 })

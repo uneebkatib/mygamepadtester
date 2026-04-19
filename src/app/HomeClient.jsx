@@ -22,18 +22,18 @@ export default function HomeClient() {
                 <Main />
             </section>
 
-            {/* Global Telemetry Preview Section */}
-            <section aria-label="Global Analytics Preview">
+            {/* Global Telemetry Preview Section — below the fold; defer rendering */}
+            <section aria-label="Global Analytics Preview" style={{ contentVisibility: 'auto', containIntrinsicSize: '0 400px' }}>
                 <TopControllersPreview />
             </section>
 
-            {/* Partners Section */}
-            <section>
+            {/* Partners Section — below the fold; defer rendering */}
+            <section style={{ contentVisibility: 'auto', containIntrinsicSize: '0 200px' }}>
                 <Partners />
             </section>
 
-            {/* Article Content Section */}
-            <article>
+            {/* Article Content Section — below the fold; defer rendering */}
+            <article style={{ contentVisibility: 'auto', containIntrinsicSize: '0 800px' }}>
                 <MainPageInfo />
             </article>
         </div>

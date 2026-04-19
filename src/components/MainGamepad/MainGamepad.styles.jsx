@@ -146,8 +146,6 @@ export const StyledLoaderTextWrapper = styled.span`
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
-      animation: fadeInUp 0.4s ease-out both;
-      will-change: transform, opacity;
     }
     
     .main-instruction {
@@ -156,8 +154,6 @@ export const StyledLoaderTextWrapper = styled.span`
       margin-bottom: 2.5rem;
       line-height: 1.6;
       font-weight: 500;
-      animation: fadeInUp 0.4s ease-out both;
-      will-change: transform, opacity;
     }
     
     .connection-methods {
@@ -175,8 +171,6 @@ export const StyledLoaderTextWrapper = styled.span`
         box-shadow: 0 8px 24px ${Theme.shadow};
         position: relative;
         overflow: hidden;
-        animation: fadeInUp 0.4s ease-out both;
-        will-change: transform, opacity;
         
         }
         
@@ -238,8 +232,7 @@ export const StyledLoaderTextWrapper = styled.span`
       color: ${Theme.textPrimary};
       margin-top: 2rem;
       box-shadow: 0 8px 24px ${Theme.shadow};
-      animation: fadeInUp 0.4s ease-out both, glow 3s ease-in-out infinite;
-      will-change: transform, opacity;
+      animation: glow 3s ease-in-out infinite;
       
       strong {
         color: ${Theme.primary};
