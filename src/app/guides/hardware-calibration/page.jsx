@@ -7,7 +7,7 @@ import GuideLayout from '@/components/Guides/GuideLayout';
 export const metadata = {
     title: 'Hardware Calibration Guide: Persistent vs Software Fixes',
     description: 'Learn the difference between software deadzones and hardware-level persistent calibration. Safe methods for fixing stick drift permanently on PS5, Xbox, and Hall Effect controllers.',
-    alternates: { canonical: '/guides/hardware-calibration' },
+    alternates: { canonical: 'https://mygamepadtester.com/guides/hardware-calibration' },
 };
 
 export default function HardwareCalibrationGuide() {

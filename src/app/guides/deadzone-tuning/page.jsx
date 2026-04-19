@@ -7,7 +7,7 @@ import GuideLayout from '@/components/Guides/GuideLayout';
 export const metadata = {
     title: 'Controller Deadzone Tuning: Optimize Precision & Fix Drift',
     description: 'Master your controller settings with our guide to deadzone tuning. Learn the difference between inner and outer deadzones and find the perfect response curve.',
-    alternates: { canonical: '/guides/deadzone-tuning' },
+    alternates: { canonical: 'https://mygamepadtester.com/guides/deadzone-tuning' },
 };
 
 export default function DeadzoneTuningGuide() {

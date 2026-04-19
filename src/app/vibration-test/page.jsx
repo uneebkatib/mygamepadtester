@@ -10,6 +10,12 @@ export const metadata = {
     alternates: {
         canonical: "https://mygamepadtester.com/vibration-test",
     },
+    openGraph: {
+        title: 'Controller Vibration Test – Check PS5, Xbox & All Gamepad Rumble Free',
+        description: 'Test your controller vibration and rumble motors. Check both heavy and fine rumble, haptic feedback, and motor imbalance on PS5, Xbox, Switch and more.',
+        url: 'https://mygamepadtester.com/vibration-test',
+        type: 'website',
+    },
 }
 
 export default function VibrationTestPage() {

@@ -13,6 +13,26 @@ const inter = localFont({
 export const metadata = {
     title: 'Free Gamepad Tester – PS5, Xbox, Switch & PC Online',
     description: 'Test any PS5, Xbox, Switch or PC controller for stick drift, button response and trigger accuracy. Free, instant, no download. Works in Chrome and Edge.',
+    metadataBase: new URL('https://mygamepadtester.com'),
+    openGraph: {
+        siteName: 'MyGamepadTester',
+        type: 'website',
+        locale: 'en_US',
+        images: [
+            {
+                url: '/og-images/homepage.png',
+                width: 1200,
+                height: 630,
+                alt: 'MyGamepadTester – Free Online Gamepad Tester',
+            },
+        ],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        site: '@mygamepadtester',
+        creator: '@uneebkatib',
+        images: ['/og-images/homepage.png'],
+    },
 }
 
 export default function RootLayout({ children }) {
@@ -70,6 +90,15 @@ export default function RootLayout({ children }) {
                             "https://www.linkedin.com/in/uneebkatib",
                             "https://github.com/uneebkatib"
                         ]
+                    })}
+                </Script>
+                <Script id="website-global-schema" type="application/ld+json" strategy="afterInteractive">
+                    {JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "WebSite",
+                        "name": "MyGamepadTester",
+                        "url": "https://mygamepadtester.com",
+                        "description": "Free online gamepad testing tools for PS5, Xbox, Switch and PC controllers."
                     })}
                 </Script>
             </body>
