@@ -2,6 +2,7 @@ import '@/styles/globals.css'
 import ClientLayout from './ClientLayout'
 import localFont from 'next/font/local'
 import Script from 'next/script'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const inter = localFont({
     src: '../fonts/Inter-latin.woff2',
@@ -41,6 +42,7 @@ export default function RootLayout({ children }) {
             </head>
             <body className={inter.className}>
                 <ClientLayout>{children}</ClientLayout>
+                <SpeedInsights />
 
                 <Script
                     src="https://www.googletagmanager.com/gtag/js?id=G-765PK89FYV"
