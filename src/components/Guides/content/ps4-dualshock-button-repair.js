@@ -11,7 +11,7 @@ export const ps4DualShockButtonRepairContent = {
   hero: {
     title: "PS4 DualShock 4 Button Repair",
     subtitle: "Complete Guide to Fix Unresponsive, Sticky, and Broken Buttons",
-    image: "/images/guides/ps4-button-repair-hero.jpg",
+    image: "/images/guides/ps4-button-repair-hero.webp",
     author: "Uneeb Katib | Hardware Diagnostic Specialist",
     experience: "6+ years in controller hardware analysis",
     publishedDate: "April 2026"

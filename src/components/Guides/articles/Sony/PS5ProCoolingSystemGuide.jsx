@@ -153,7 +153,7 @@ export const PS5ProCoolingSystemGuide = () => {
         </p>
 
         <HeroFrame>
-          <img src="C:\Users\Administrator\.gemini\antigravity\brain\3a93da9e-f166-4021-83f5-2d93018fbcde\ps5_pro_cooling_hero_1775930789145.png" alt="PS5 Pro Cooling Hero" />
+          <img loading="lazy" decoding="async" src="C:\Users\Administrator\.gemini\antigravity\brain\3a93da9e-f166-4021-83f5-2d93018fbcde\ps5_pro_cooling_hero_1775930789145.png" alt="PS5 Pro Cooling Hero" />
         </HeroFrame>
 
         <section id="table-of-contents">
@@ -182,7 +182,7 @@ export const PS5ProCoolingSystemGuide = () => {
         </p>
 
         <HighlightBox>
-          <h3><img src="C:\Users\Administrator\.gemini\antigravity\brain\3a93da9e-f166-4021-83f5-2d93018fbcde\ps5_pro_liquid_metal_detail_1775930805459.png" style={{ width: '100px', borderRadius: '8px' }} /> Liquid Metal Containment</h3>
+          <h3><img loading="lazy" decoding="async" src="C:\Users\Administrator\.gemini\antigravity\brain\3a93da9e-f166-4021-83f5-2d93018fbcde\ps5_pro_liquid_metal_detail_1775930805459.png" style={{ width: '100px', borderRadius: '8px' }} /> Liquid Metal Containment</h3>
           <p>
             The PS5 Pro features an internally reinforced <strong>Chemical-Resistant Foam Dam</strong>. This barrier is critical. If you ever disassemble your console for advanced repairs, checking the integrity of this foam is your number one priority. A breach can lead to liquid metal leaking onto the motherboard, causing an immediate, irreparable electrical short.
           </p>

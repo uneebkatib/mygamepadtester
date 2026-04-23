@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Offline – MyGamepadTester</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#FAF9F5;color:#1a1a1a;display:flex;align-items:center;justify-content:center;min-height:100vh;padding:2rem;text-align:center}
+    .card{max-width:400px;background:#fff;border:1px solid #E5E3DE;border-radius:16px;padding:2.5rem 2rem;box-shadow:0 4px 20px rgba(0,0,0,.06)}
+    .icon{font-size:3rem;margin-bottom:1rem}
+    h1{font-size:1.5rem;font-weight:700;margin-bottom:.75rem;color:#DA7756}
+    p{color:#555;line-height:1.6;margin-bottom:1.5rem}
+    a{display:inline-block;background:#DA7756;color:#fff;padding:.75rem 1.5rem;border-radius:8px;text-decoration:none;font-weight:600;font-size:.95rem}
+    a:hover{background:#C15F3C}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon">🎮</div>
+    <h1>You're Offline</h1>
+    <p>It looks like you lost your internet connection. Reconnect and try again.</p>
+    <a href="/" onclick="location.reload()">Try Again</a>
+  </div>
+</body>
+</html>

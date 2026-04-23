@@ -28,7 +28,7 @@ export default function HomePage() {
             "Vibration testing",
             "Input latency monitoring"
         ],
-        "screenshot": "https://mygamepadtester.com/screenshot.png",
+        "screenshot": "https://mygamepadtester.com/screenshot.webp",
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "4.9",

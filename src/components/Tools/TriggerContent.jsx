@@ -332,7 +332,7 @@ export default function TriggerContent() {
           </div>
           <RespImage>
             <Image
-              src="/images/trigger-test/ui-mockup.png"
+              src="/images/trigger-test/ui-mockup.webp"
               alt="Controller trigger test interface on mygamepadtester.com showing L2 and RT pressure range comparison"
               width={800}
               height={500}
@@ -361,7 +361,7 @@ export default function TriggerContent() {
                 </div>
                 <RespImage>
                     <Image
-                        src="/images/trigger-test/session-mockup.png"
+                        src="/images/trigger-test/session-mockup.webp"
                         alt="PS5 and Xbox controllers running a trigger test session in a browser on mygamepadtester.com"
                         width={800}
                         height={500}
@@ -407,7 +407,7 @@ export default function TriggerContent() {
             </RoadmapSteps>
             <RespImage>
               <Image
-                src="/images/trigger-test/steps-infographic.png"
+                src="/images/trigger-test/steps-infographic.webp"
                 alt="Step-by-step infographic showing how to use the online trigger tester on mygamepadtester.com"
                 width={800}
                 height={600}
@@ -474,7 +474,7 @@ export default function TriggerContent() {
         <ContentGrid>
             <RespImage>
                 <Image
-                    src="/images/trigger-test/internals-diagram.png"
+                    src="/images/trigger-test/internals-diagram.webp"
                     alt="Technical diagram showing disassembled trigger internals with silicon pad and conductive film locations"
                     width={800}
                     height={500}

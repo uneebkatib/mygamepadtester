@@ -335,7 +335,7 @@ export default function ButtonTest() {
                     </div>
                     <RespImage>
                         <Image
-                            src="/images/button-test/ui-mockup.png"
+                            src="/images/button-test/ui-mockup.webp"
                             alt="Controller button tester interface showing real-time button registration on a PS5 DualSense controller"
                             width={800}
                             height={500}
@@ -407,7 +407,7 @@ export default function ButtonTest() {
                         </RoadmapSteps>
                         <RespImage>
                             <Image
-                                src="/images/button-test/steps-infographic.png"
+                                src="/images/button-test/steps-infographic.webp"
                                 alt="Step by step infographic showing how to use a controller button tester in five steps"
                                 width={800}
                                 height={600}
@@ -443,7 +443,7 @@ export default function ButtonTest() {
                 <ContentGrid>
                     <RespImage>
                         <Image
-                            src="/images/button-test/results-diagram.png"
+                            src="/images/button-test/results-diagram.webp"
                             alt="Controller button tester results showing green orange and red button states for passed sticky and failed inputs"
                             width={800}
                             height={500}
@@ -505,7 +505,7 @@ export default function ButtonTest() {
                     </div>
                     <RespImage>
                         <Image
-                            src="/images/button-test/internals.png"
+                            src="/images/button-test/internals.webp"
                             alt="Disassembled game controller showing internal silicone dome pads and carbon contact pads that commonly cause button failures"
                             width={800}
                             height={500}
@@ -573,7 +573,7 @@ export default function ButtonTest() {
                     <div style={{ marginTop: '3rem', textAlign: 'center' }}>
                         <RespImage style={{ maxWidth: '600px' }}>
                             <Image
-                                src="/images/button-test/faq-image.png"
+                                src="/images/button-test/faq-image.webp"
                                 alt="Wired and wireless controllers connected simultaneously to a laptop running an online controller button tester"
                                 width={800}
                                 height={500}

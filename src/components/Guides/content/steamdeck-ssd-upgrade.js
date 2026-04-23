@@ -11,7 +11,7 @@ export const steamdeckSsdUpgradeContent = {
   hero: {
     title: "Steam Deck SSD Upgrade",
     subtitle: "Double or Quadruple Your Storage with Easy NVME Installation",
-    image: "/images/guides/steamdeck-ssd-upgrade-hero.jpg",
+    image: "/images/guides/steamdeck-ssd-upgrade-hero.webp",
     author: "Uneeb Katib | Hardware Diagnostic Specialist",
     experience: "6+ years in controller hardware analysis",
     publishedDate: "April 2026"

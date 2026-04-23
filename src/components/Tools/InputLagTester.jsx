@@ -21,6 +21,7 @@ const DashboardWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  padding: 0 1rem;
 `;
 
 const ToolHeader = styled.div`
@@ -56,9 +57,12 @@ const StyledTabList = styled.div`
   border-radius: 1rem;
   background-color: ${Theme.interface};
   width: fit-content;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0.5rem;
   gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
   box-shadow: 0 4px 12px ${Theme.shadowMedium};
 `;
 
@@ -250,6 +254,16 @@ const SecondaryBtn = styled.button`
 
   &:hover {
     background: ${Theme.backgroundLight};
+  }
+`;
+
+const CompareGrid = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
   }
 `;
 
@@ -567,7 +581,7 @@ export default function InputLagTester() {
               <>
                 <h3 style={{ color: Theme.primary, marginBottom: '1.5rem' }}>Wired vs Wireless Comparison</h3>
                 
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
+                <CompareGrid>
                   <div style={{ padding: '1.5rem', background: Theme.backgroundDark, borderRadius: '20px', textAlign: 'center' }}>
                     <h4 style={{ marginBottom: '1rem', color: Theme.primary }}>Reference (Baseline)</h4>
                     {comparisons.baseline ? (
@@ -591,7 +605,7 @@ export default function InputLagTester() {
                     <div style={{ color: Theme.textMuted }}>{pollingStats.avg} ms avg</div>
                     <div style={{ marginTop: '0.5rem', fontSize: '0.8rem', fontWeight: 700 }}>{controllerName}</div>
                   </div>
-                </div>
+                </CompareGrid>
 
                 {comparisons.baseline && (
                   <div style={{ marginTop: '2rem', padding: '1.5rem', background: Theme.interface, borderRadius: '20px', textAlign: 'center' }}>

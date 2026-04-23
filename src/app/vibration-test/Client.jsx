@@ -586,7 +586,7 @@ export default function VibrationTestClient() {
           </div>
           <ResponsiveImage>
             <Image
-              src="/images/vibration-tester/ui-mockup.png"
+              src="/images/vibration-tester/ui-mockup.webp"
               alt="Official MyGamepadTester.com Vibration Tester dashboard showing connected controller status and dual-motor intensity controls"
               width={800}
               height={500}
@@ -648,7 +648,7 @@ export default function VibrationTestClient() {
           </div>
           <ResponsiveImage>
             <Image
-              src="/images/vibration-tester/infographic.png"
+              src="/images/vibration-tester/infographic.webp"
               alt="Step-by-step infographic showing how to use a controller vibration tester"
               width={800}
               height={500}
@@ -673,7 +673,7 @@ export default function VibrationTestClient() {
           </div>
           <ResponsiveImage>
             <Image
-              src="/images/vibration-tester/motor-comparison.png"
+              src="/images/vibration-tester/motor-comparison.webp"
               alt="Graph comparing normal smooth vibration output vs failing jagged motor output"
               width={800}
               height={500}
@@ -699,7 +699,7 @@ export default function VibrationTestClient() {
             </div>
             <ResponsiveImage $maxWidth="500px">
               <Image
-                src="/images/vibration-tester/flowchart.png"
+                src="/images/vibration-tester/flowchart.webp"
                 alt="Decision tree flowchart for troubleshooting controller vibration issues"
                 width={500}
                 height={600}
@@ -748,7 +748,7 @@ export default function VibrationTestClient() {
         <ContentGrid>
           <ResponsiveImage>
             <Image
-              src="/images/vibration-tester/compatibility-grid.png"
+              src="/images/vibration-tester/compatibility-grid.webp"
               alt="Grid showing browser and OS compatibility for gamepad vibration API"
               width={800}
               height={500}

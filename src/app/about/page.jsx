@@ -22,7 +22,7 @@ export default function AboutPage() {
         "@type": "Organization",
         "name": "MyGamepadTester",
         "url": "https://mygamepadtester.com",
-        "logo": "https://mygamepadtester.com/logo.png",
+        "logo": "https://mygamepadtester.com/logo.webp",
         "description": en.about?.mainIntro || "Free online gamepad testing and calibration tools for PS5, PS4, Xbox, Switch, and PC controllers."
     }
 

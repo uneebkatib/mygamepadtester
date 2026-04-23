@@ -7,7 +7,7 @@ import { StyledArticleWrapper } from "../../ArticleStyles";
 export const XboxOneButtonRepairGuide = () => (
   <StyledArticleWrapper>
     <div className="hero-container">
-      <img src="/images/guides/microsoft/xbox-one-gamepad/button-repair-hero.png" alt="Xbox One controller button repair showing stuck ABXY face button requiring cleaning or membrane replacement" />
+      <img loading="lazy" decoding="async" src="/images/guides/microsoft/xbox-one-gamepad/button-repair-hero.webp" alt="Xbox One controller button repair showing stuck ABXY face button requiring cleaning or membrane replacement" />
     </div>
 
     <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginBottom: '30px' }}>
@@ -132,7 +132,7 @@ export const XboxOneButtonRepairGuide = () => (
           </ul>
         </div>
       </div>
-      <img src="/images/guides/microsoft/xbox-one-gamepad/button-repair-tools.png" alt="Xbox One controller button repair tools including Torx screwdrivers and replacement parts" style={{ width: '100%', borderRadius: '12px', marginBottom: '30px' }} />
+      <img loading="lazy" decoding="async" src="/images/guides/microsoft/xbox-one-gamepad/button-repair-tools.webp" alt="Xbox One controller button repair tools including Torx screwdrivers and replacement parts" style={{ width: '100%', borderRadius: '12px', marginBottom: '30px' }} />
     </section>
 
     <section id="step-by-step" style={{ marginTop: '40px' }}>
@@ -150,7 +150,7 @@ export const XboxOneButtonRepairGuide = () => (
         <p style={{ lineHeight: '1.8' }}>
           Remove the T6 internal screws and lift the PCB. Inspect the <strong>carbon contact pads</strong> on the membrane and the gold traces on the PCB. Clean both with a cotton swab soaked in 99% IPA. If the pads are worn thin, replace the entire rubber membrane sheet.
         </p>
-        <img src="/images/guides/microsoft/xbox-one-gamepad/membrane-inspection.png" alt="Xbox One controller button membrane removed showing carbon contact pad" style={{ width: '100%', borderRadius: '12px', margin: '20px 0' }} />
+        <img loading="lazy" decoding="async" src="/images/guides/microsoft/xbox-one-gamepad/membrane-inspection.webp" alt="Xbox One controller button membrane removed showing carbon contact pad" style={{ width: '100%', borderRadius: '12px', margin: '20px 0' }} />
       </div>
 
       <div style={{ marginBottom: '40px' }}>
@@ -158,7 +158,7 @@ export const XboxOneButtonRepairGuide = () => (
         <p style={{ lineHeight: '1.8' }}>
           For failed Menu/View buttons or 1708 bumpers, identify the tact switch on the PCB. Apply flux and use solder wick to remove the four old joints. Solder the new 4.3mm switch in place, ensuring it sits flush against the board.
         </p>
-        <img src="/images/guides/microsoft/xbox-one-gamepad/tact-switch-replacement.png" alt="Soldering a new tact switch to the Xbox One controller PCB" style={{ width: '100%', borderRadius: '12px', margin: '20px 0' }} />
+        <img loading="lazy" decoding="async" src="/images/guides/microsoft/xbox-one-gamepad/tact-switch-replacement.webp" alt="Soldering a new tact switch to the Xbox One controller PCB" style={{ width: '100%', borderRadius: '12px', margin: '20px 0' }} />
       </div>
     </section>
 

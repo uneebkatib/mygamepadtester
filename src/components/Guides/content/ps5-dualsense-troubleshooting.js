@@ -11,7 +11,7 @@ export const ps5DualSenseTroubleshootingContent = {
   hero: {
     title: "PS5 DualSense Complete Troubleshooting",
     subtitle: "Every Problem, Every Solution - The Definitive Guide",
-    image: "/images/guides/dualsense-troubleshooting-hero.jpg",
+    image: "/images/guides/dualsense-troubleshooting-hero.webp",
     author: "Uneeb Katib | Hardware Diagnostic Specialist",
     experience: "6+ years in controller hardware analysis",
     publishedDate: "April 2026"

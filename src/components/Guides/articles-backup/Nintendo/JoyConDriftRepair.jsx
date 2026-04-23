@@ -7,7 +7,7 @@ import { StyledArticleWrapper } from "@/components/Guides/articles/ArticleStyles
 export const JoyConDriftRepair = () => (
   <StyledArticleWrapper>
     <div className="hero-container">
-      <img src="/images/guides/nintendo/switch/hero.png" alt="Nintendo Switch Joycon drift repair showing internal stick module" />
+      <img loading="lazy" decoding="async" src="/images/guides/nintendo/switch/hero.webp" alt="Nintendo Switch Joycon drift repair showing internal stick module" />
     </div>
 
     <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginBottom: '30px' }}>

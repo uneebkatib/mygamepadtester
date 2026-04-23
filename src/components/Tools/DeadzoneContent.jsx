@@ -324,7 +324,7 @@ export default function DeadzoneContent() {
           </div>
           <RespImage>
             <Image
-              src="/images/deadzone-test/intro-diagram.png"
+              src="/images/deadzone-test/intro-diagram.webp"
               alt="Diagram showing how controller dead zone threshold affects joystick input registration"
               width={800}
               height={600}
@@ -340,7 +340,7 @@ export default function DeadzoneContent() {
             <ContentGrid>
                 <RespImage>
                     <Image
-                        src="/images/deadzone-test/ui-mockup.png"
+                        src="/images/deadzone-test/ui-mockup.webp"
                         alt="Screenshot mockup of a dead zone test tool showing joystick position dot and deadzone ring overlay"
                         width={800}
                         height={550}
@@ -401,7 +401,7 @@ export default function DeadzoneContent() {
             </RoadmapSteps>
             <RespImage>
               <Image
-                src="/images/deadzone-test/steps-infographic.png"
+                src="/images/deadzone-test/steps-infographic.webp"
                 alt="Step-by-step infographic showing how to use an online dead zone test tool for game controllers at mygamepadtester.com"
                 width={800}
                 height={600}
@@ -437,7 +437,7 @@ export default function DeadzoneContent() {
           <ContentGrid>
             <RespImage>
                 <Image
-                    src="/images/deadzone-test/results-chart.png"
+                    src="/images/deadzone-test/results-chart.webp"
                     alt="Color-coded deadzone value chart showing range from 0.00 minimal to above 0.20 significant controller wear"
                     width={800}
                     height={500}
@@ -504,7 +504,7 @@ export default function DeadzoneContent() {
                 </div>
                 <RespImage>
                     <Image
-                        src="/images/deadzone-test/settings-conflict.png"
+                        src="/images/deadzone-test/settings-conflict.webp"
                         alt="Illustration showing correct single-layer deadzone setup versus conflicting deadzone settings in game and Steam"
                         width={800}
                         height={550}
@@ -528,7 +528,7 @@ export default function DeadzoneContent() {
         <SectionContainer>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '2rem', marginBottom: '5rem' }}>
               <div style={{ maxWidth: '100px' }}>
-                <Image src="/images/deadzone-test/faqs-icon.png" alt="FAQ Icon" width={100} height={100} style={{ width: '100%', height: 'auto' }} />
+                <Image src="/images/deadzone-test/faqs-icon.webp" alt="FAQ Icon" width={100} height={100} style={{ width: '100%', height: 'auto' }} />
               </div>
               <SectionHeading style={{ margin: 0 }}>Deadzone Test FAQ</SectionHeading>
           </div>

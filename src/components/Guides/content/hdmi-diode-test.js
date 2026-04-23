@@ -11,7 +11,7 @@ export const hdmiDiodeTestContent = {
   hero: {
     title: "HDMI Port Diode Test - All Consoles",
     subtitle: "Professional Diagnostic Method for HDMI Port Failures",
-    image: "/images/guides/hdmi-diode-test-hero.jpg",
+    image: "/images/guides/hdmi-diode-test-hero.webp",
     author: "Uneeb Katib | Hardware Diagnostic Specialist",
     experience: "6+ years in controller hardware analysis",
     publishedDate: "April 2026"

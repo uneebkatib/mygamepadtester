@@ -556,7 +556,7 @@ export const MainPageContent = () => {
 
             <ImageBlock>
                 <Image 
-                    src="/images/homepage/controller_repair_1.png" 
+                    src="/images/homepage/controller_repair_1.webp" 
                     alt="Disassembled modern gaming controller showing internal circuit board and analog stick modules for repair diagnostics" 
                     width={450}
                     height={300}
@@ -706,7 +706,7 @@ export const MainPageContent = () => {
 
             <ImageBlock>
                 <Image 
-                    src="/images/homepage/controller_repair_2.png" 
+                    src="/images/homepage/controller_repair_2.webp" 
                     alt="Technical diagram of gaming controller internal components illustrating precision testing and sensor calibration points" 
                     width={450}
                     height={300}
@@ -739,7 +739,7 @@ export const MainPageContent = () => {
 
             <ImageBlock>
                 <Image 
-                    src="/images/homepage/controller_repair_3.png" 
+                    src="/images/homepage/controller_repair_3.webp" 
                     alt="Comparison infographic explaining the difference between software recalibration and physical hardware repair for controller drift" 
                     width={450}
                     height={300}

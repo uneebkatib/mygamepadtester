@@ -7,7 +7,7 @@ import { StyledArticleWrapper } from "@/components/Guides/articles/ArticleStyles
 export const StickDriftDiagnostics = () => (
   <StyledArticleWrapper>
     <div className="hero-container">
-      <img src="/images/guides/drift/diagnostic-hero.png" alt="Stick drift diagnostic telemetry showing jitter and axis bias" />
+      <img loading="lazy" decoding="async" src="/images/guides/drift/diagnostic-hero.webp" alt="Stick drift diagnostic telemetry showing jitter and axis bias" />
     </div>
 
     <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginBottom: '30px' }}>

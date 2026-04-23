@@ -84,7 +84,8 @@ const StyledUl = styled.ul`
   border-radius: 0 0 1rem 1rem;
   font-size: 1.1rem;
   background-color: ${Theme.interface};
-  width: fit-content;
+  width: 100%;
+  max-width: 100%;
   margin: 0 auto 1.5rem;
   flex-wrap: nowrap;
   min-height: 60px;
@@ -111,6 +112,12 @@ const TabButton = styled.button`
   
   &:last-child { border-right: none; }
   &:hover { background: ${Theme.backgroundLight}; }
+
+  @media (max-width: 480px) {
+    width: 7.5rem;
+    padding: 0.75rem 0.5rem;
+    font-size: 0.85rem;
+  }
 `;
 
 const StyledConnected = styled.p`

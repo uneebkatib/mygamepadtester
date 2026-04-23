@@ -11,7 +11,7 @@ export const buttonRepairContent = {
   hero: {
     title: "Xbox One Controller Button Repair",
     subtitle: "Complete Guide to Fix Unresponsive, Sticky, and Broken Buttons",
-    image: "/images/guides/xbox-button-repair-hero.jpg",
+    image: "/images/guides/xbox-button-repair-hero.webp",
     author: "Uneeb Katib | Hardware Diagnostic Specialist",
     experience: "6+ years in controller hardware analysis",
     publishedDate: "April 2026"

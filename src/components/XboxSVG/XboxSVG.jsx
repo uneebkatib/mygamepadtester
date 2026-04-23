@@ -32,8 +32,7 @@ export function XboxSVG({
         // xmlns:xlink="http://www.w3.org/1999/xlink"
         viewBox="0 0 580.032 580.032"
         // xml:space="preserve"
-        height="370"
-        width="370"
+        style={{ width: '100%', height: 'auto', maxWidth: '370px', display: 'block', margin: '0 auto' }}
       >
         <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
         <g

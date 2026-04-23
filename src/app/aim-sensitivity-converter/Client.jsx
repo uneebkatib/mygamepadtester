@@ -559,7 +559,7 @@ export default function AimSensitivityClient() {
                     </div>
                     <ImageBlock>
                         <Image 
-                            src="/images/tools/aim-converter/mockup.png" 
+                            src="/images/tools/aim-converter/mockup.webp" 
                             alt="Aim sensitivity converter tool interface showing game selection dropdowns and sensitivity output panel" 
                             width={500}
                             height={340}
@@ -611,7 +611,7 @@ export default function AimSensitivityClient() {
                 <InfoGrid>
                     <ImageBlock>
                         <Image 
-                            src="/images/tools/aim-converter/steps.png" 
+                            src="/images/tools/aim-converter/steps.webp" 
                             alt="Step-by-step infographic showing how to use an aim sensitivity converter in 6 steps" 
                             width={500}
                             height={340}

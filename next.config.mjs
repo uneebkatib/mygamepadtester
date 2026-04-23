@@ -7,7 +7,13 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
+  // Gzip / Brotli compression for the dev server and any Node.js host
+  compress: true,
   reactStrictMode: false,
+  // Tree-shake react-icons to only include the icons actually imported
+  experimental: {
+    optimizePackageImports: ['react-icons'],
+  },
   eslint: {
     ignoreDuringBuilds: true,
   },

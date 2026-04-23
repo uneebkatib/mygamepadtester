@@ -7,7 +7,7 @@ import { StyledArticleWrapper } from "@/components/Guides/articles/ArticleStyles
 export const ControllerCalibrationGuide = () => (
   <StyledArticleWrapper>
     <div className="hero-container">
-      <img src="/images/guides/calibration/calibration-hero.png" alt="controller calibration interface showing axis centering and range adjustment" />
+      <img loading="lazy" decoding="async" src="/images/guides/calibration/calibration-hero.webp" alt="controller calibration interface showing axis centering and range adjustment" />
     </div>
 
     <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginBottom: '30px' }}>

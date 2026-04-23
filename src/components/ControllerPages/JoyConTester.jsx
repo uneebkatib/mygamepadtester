@@ -684,7 +684,7 @@ const JoyConTester = () => {
 
         <ScreenshotContainer>
           <Image
-            src="/screenshots/gamepad-tester-interface.png"
+            src="/screenshots/gamepad-tester-interface.webp"
             alt="Joy-Con controller tester interface showing button presses and stick values"
             width={1200}
             height={600}
@@ -730,7 +730,7 @@ const JoyConTester = () => {
             <p><strong>Left Joy-Con Note:</strong> The left stick is more prone to drift due to higher usage in most games.</p>
             <ScreenshotContainer>
               <Image
-                src="/screenshots/dead-zone-visualizer.png"
+                src="/screenshots/dead-zone-visualizer.webp"
                 alt="Joy-Con stick drift detection visualization"
                 width={1200}
                 height={400}
@@ -751,7 +751,7 @@ const JoyConTester = () => {
             <p>• Full press detection<br />• Skipped or stuck presses<br />• Accidental double-presses (bounce)</p>
             <ScreenshotContainer>
               <Image
-                src="/screenshots/trigger-test.png"
+                src="/screenshots/trigger-test.webp"
                 alt="Joy-Con trigger test for L, R, ZL, ZR buttons"
                 width={1200}
                 height={400}
@@ -774,7 +774,7 @@ const JoyConTester = () => {
             <p>Flat lines when tilting = sensor failure. Erratic jumps = needs recalibration.</p>
             <ScreenshotContainer>
               <Image
-                src="/screenshots/connection-quality.png"
+                src="/screenshots/connection-quality.webp"
                 alt="Joy-Con motion sensor gyroscope test"
                 width={1200}
                 height={400}
@@ -816,7 +816,7 @@ const JoyConTester = () => {
             <p>USB typically gives 4-8ms latency. Bluetooth adds 8-16ms.</p>
             <ScreenshotContainer>
               <Image
-                src="/screenshots/input-lag-result.png"
+                src="/screenshots/input-lag-result.webp"
                 alt="Joy-Con input latency test results"
                 width={1200}
                 height={400}

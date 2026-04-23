@@ -11,7 +11,7 @@ export const stickDriftRepairContent = {
   hero: {
     title: "Xbox One Controller Stick Drift Repair",
     subtitle: "The Complete Step-by-Step Guide to Fix Analog Stick Drift",
-    image: "/images/guides/xbox-stick-drift-hero.jpg",
+    image: "/images/guides/xbox-stick-drift-hero.webp",
     author: "Uneeb Katib | Hardware Diagnostic Specialist",
     experience: "6+ years in controller hardware analysis",
     publishedDate: "April 2026"

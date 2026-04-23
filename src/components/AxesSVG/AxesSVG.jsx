@@ -238,7 +238,7 @@ export function AxesSVG({ leftX, leftY, l3Pressed, rightX, rightY, r3Pressed, mi
         </StatsRow>
       )}
 
-      <svg height="157" width="335" style={{ display: 'block', margin: '0 auto' }}>
+      <svg viewBox="0 0 335 157" role="img" aria-label="Analog stick trace visualization" style={{ display: 'block', margin: '0 auto', width: '100%', maxWidth: '335px' }}>
         {renderStick(leftPath, leftStats, leftSeverity, leftX, leftY, l3Pressed, 78.5)}
         {renderStick(rightPath, rightStats, rightSeverity, rightX, rightY, r3Pressed, 258.5)}
       </svg>

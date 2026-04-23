@@ -73,6 +73,10 @@ const MonitorGrid = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.25rem;
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 const DeadzoneCanvasWrapper = styled.div`
