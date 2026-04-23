@@ -352,7 +352,7 @@ export default function InputLagContent() {
           </div>
           <RespImage>
             <Image
-              src="/images/input-lag-test/hero.png"
+              src="/images/input-lag-test/hero.webp"
               alt="Professional controller input lag test dashboard showing milliseconds reading and polling rate graphs"
               width={800}
               height={500}
@@ -372,7 +372,7 @@ export default function InputLagContent() {
             <ContentGrid>
                 <RespImage>
                     <Image
-                        src="/images/input-lag-test/polling-rate-diagram.png"
+                        src="/images/input-lag-test/polling-rate-diagram.webp"
                         alt="Technical diagram explaining polling rate and input lag concepts on mygamepadtester.com"
                         width={800}
                         height={500}
@@ -427,7 +427,7 @@ export default function InputLagContent() {
             </RoadmapSteps>
             <RespImage>
               <Image
-                src="/images/input-lag-test/steps-infographic.png"
+                src="/images/input-lag-test/steps-infographic.webp"
                 alt="Infographic for running an input lag test on mygamepadtester.com including connection and results checking"
                 width={800}
                 height={600}
@@ -504,7 +504,7 @@ export default function InputLagContent() {
         <ContentGrid>
             <RespImage>
                 <Image
-                    src="/images/input-lag-test/wired-vs-wireless-latency-comparison.png"
+                    src="/images/input-lag-test/wired-vs-wireless-latency-comparison.webp"
                     alt="Bar chart comparing wired vs wireless controller latency on mygamepadtester.com"
                     width={800}
                     height={500}

@@ -14,7 +14,7 @@ import { PS5_HDMI_Replacement } from "./articles/Sony/PlayStation5/PS5_HDMI_Repl
 const AnalogStickOptimizationGuide = () => (
   <div className="professional-guide">
     <div style={{ borderRadius: '16px', overflow: 'hidden', marginBottom: '30px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }}>
-      <img src="/images/guides/calibration/analog-stick-hero.png" alt="Analog Stick Optimization" style={{ width: '100%', height: '400px', objectFit: 'cover' }} />
+      <img loading="lazy" decoding="async" src="/images/guides/calibration/analog-stick-hero.webp" alt="Analog Stick Optimization" style={{ width: '100%', height: '400px', objectFit: 'cover' }} />
     </div>
 
     <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginBottom: '30px' }}>
@@ -97,7 +97,7 @@ const AnalogStickOptimizationGuide = () => (
 
     <section id="tools-needed">
       <h3>Tools and Software You'll Need</h3>
-      <img src="/images/guides/calibration/optimization-tools.png" alt="Optimization Tools Setup" style={{ width: '100%', borderRadius: '12px', marginBottom: '30px' }} />
+      <img loading="lazy" decoding="async" src="/images/guides/calibration/optimization-tools.webp" alt="Optimization Tools Setup" style={{ width: '100%', borderRadius: '12px', marginBottom: '30px' }} />
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '20px' }}>
         {[
           { name: "Steam Support", platform: "PC/Steam Deck", cost: "Free", use: "Official troubleshooting for controller calibration.", url: "https://help.steampowered.com/en/faqs/view/1739-85C5-40D9-921C" },
@@ -139,7 +139,7 @@ const AnalogStickOptimizationGuide = () => (
       <div style={{ background: '#f1f5f9', padding: '30px', borderRadius: '16px', margin: '30px 0' }}>
         <h4 style={{ marginTop: '0', background: '#38a169', color: 'white', display: 'inline-block', padding: '5px 15px', borderRadius: '5px' }}>Step 2: Calibrating the Inner Deadzone</h4>
         <p>Set your inner deadzone to 0.01 above your highest measured resting stability value. If your Y-axis reads 0.045, set the deadzone to 0.055.</p>
-        <img src="/images/guides/calibration/deadzone-mockup.png" alt="Deadzone Adjustment UI" style={{ width: '100%', borderRadius: '12px', marginTop: '20px' }} />
+        <img loading="lazy" decoding="async" src="/images/guides/calibration/deadzone-mockup.webp" alt="Deadzone Adjustment UI" style={{ width: '100%', borderRadius: '12px', marginTop: '20px' }} />
       </div>
 
       <div style={{ background: '#f1f5f9', padding: '30px', borderRadius: '16px', margin: '30px 0' }}>
@@ -155,7 +155,7 @@ const AnalogStickOptimizationGuide = () => (
             <p><em>Warning: This voids manufacturer warranty but can extend controller life by 6-12 months.</em></p>
           </div>
           <div style={{ flex: '0 0 200px' }}>
-            <img src="/images/guides/calibration/potentiometer-cleaning.png" alt="Cleaning Potentiometer" style={{ width: '100%', borderRadius: '10px' }} />
+            <img loading="lazy" decoding="async" src="/images/guides/calibration/potentiometer-cleaning.webp" alt="Cleaning Potentiometer" style={{ width: '100%', borderRadius: '10px' }} />
           </div>
         </div>
       </div>
@@ -164,7 +164,7 @@ const AnalogStickOptimizationGuide = () => (
     <section id="test-results">
       <h3>How to Test Whether Optimization Worked</h3>
       <p>Don't rely on feel. Use our <Link href="/deadzone-test" style={{ color: '#38a169', fontWeight: 'bold' }}>Deadzone Tester</Link> tool to visualize the results.</p>
-      <img src="/images/guides/calibration/before-after.png" alt="Before and After Optimization" style={{ width: '100%', borderRadius: '12px', margin: '20px 0' }} />
+      <img loading="lazy" decoding="async" src="/images/guides/calibration/before-after.webp" alt="Before and After Optimization" style={{ width: '100%', borderRadius: '12px', margin: '20px 0' }} />
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px', textAlign: 'center' }}>
         <div style={{ padding: '20px', background: '#f8fafc', borderRadius: '12px' }}>
           <span style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#38a169' }}>&lt; 0.01</span>
@@ -226,7 +226,7 @@ const AnalogStickOptimizationGuide = () => (
 const ControllerCalibrationGuide = () => (
   <div className="professional-guide">
     <div style={{ borderRadius: '16px', overflow: 'hidden', marginBottom: '30px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }}>
-      <img src="/images/guides/calibration/hero.png" alt="Hardware Calibration Hero" style={{ width: '100%', height: '400px', objectFit: 'cover' }} />
+      <img loading="lazy" decoding="async" src="/images/guides/calibration/hero.webp" alt="Hardware Calibration Hero" style={{ width: '100%', height: '400px', objectFit: 'cover' }} />
     </div>
 
     <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginBottom: '30px' }}>
@@ -338,7 +338,7 @@ const ControllerCalibrationGuide = () => (
           </div>
         ))}
       </div>
-      <img src="/images/guides/calibration/joy-cpl.png" alt="Windows Calibration Tools" style={{ width: '100%', borderRadius: '12px', margin: '20px 0' }} />
+      <img loading="lazy" decoding="async" src="/images/guides/calibration/joy-cpl.webp" alt="Windows Calibration Tools" style={{ width: '100%', borderRadius: '12px', margin: '20px 0' }} />
     </section>
 
     <section id="warnings">
@@ -368,7 +368,7 @@ const ControllerCalibrationGuide = () => (
           </ol>
         </div>
         <div style={{ flex: '1', minWidth: '300px' }}>
-          <img src="/images/guides/calibration/wizard.png" alt="Windows Calibration Wizard" style={{ width: '100%', borderRadius: '12px', border: '1px solid #e2e8f0' }} />
+          <img loading="lazy" decoding="async" src="/images/guides/calibration/wizard.webp" alt="Windows Calibration Wizard" style={{ width: '100%', borderRadius: '12px', border: '1px solid #e2e8f0' }} />
         </div>
       </div>
     </section>
@@ -386,7 +386,7 @@ const ControllerCalibrationGuide = () => (
           <li>Test the <strong>Response Curve</strong>: "Linear" is standard, but "Relaxed" or "Wide" can benefit controllers with early mechanical wear.</li>
         </ol>
       </div>
-      <img src="/images/guides/calibration/steam.png" alt="Steam Input Calibration Panel" style={{ width: '100%', borderRadius: '12px', marginBottom: '30px' }} />
+      <img loading="lazy" decoding="async" src="/images/guides/calibration/steam.webp" alt="Steam Input Calibration Panel" style={{ width: '100%', borderRadius: '12px', marginBottom: '30px' }} />
     </section>
 
     <section id="third-party-calibration">
@@ -441,7 +441,7 @@ const ControllerCalibrationGuide = () => (
         </ul>
       </div>
       <div style={{ textAlign: 'center' }}>
-        <img src="/images/guides/calibration/success.png" alt="Successful Calibration Verification" style={{ maxWidth: '500px', borderRadius: '12px', boxShadow: '0 4px 12px rgba(0,0,0,0.1)' }} />
+        <img loading="lazy" decoding="async" src="/images/guides/calibration/success.webp" alt="Successful Calibration Verification" style={{ maxWidth: '500px', borderRadius: '12px', boxShadow: '0 4px 12px rgba(0,0,0,0.1)' }} />
       </div>
     </section>
 
@@ -1168,7 +1168,7 @@ const StickDriftDiagnostics = () => (
 const InputLagOptimizationGuide = () => (
   <div className="professional-guide">
     <div style={{ borderRadius: '16px', overflow: 'hidden', marginBottom: '30px', boxShadow: '0 10px 30px rgba(0,0,0,0.05)', background: '#f8fafc', display: 'flex', justifyContent: 'center' }}>
-      <img src="/images/guides/latency/input-lag-hero.png" alt="Input Lag Optimization Hero" style={{ width: 'auto', maxWidth: '100%', height: '300px', objectFit: 'contain' }} />
+      <img loading="lazy" decoding="async" src="/images/guides/latency/input-lag-hero.webp" alt="Input Lag Optimization Hero" style={{ width: 'auto', maxWidth: '100%', height: '300px', objectFit: 'contain' }} />
     </div>
 
     <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginBottom: '30px' }}>
@@ -1206,7 +1206,7 @@ const InputLagOptimizationGuide = () => (
         <li><strong>Layer 4: Game engine</strong> – The internal tick rate at which the game samples for new input data.</li>
       </ul>
       <div style={{ display: 'flex', justifyContent: 'center', margin: '30px 0' }}>
-        <img src="/images/guides/latency/input-lag-stack.png" alt="Controller Latency Stack Layers" style={{ width: 'auto', maxWidth: '100%', maxHeight: '400px', borderRadius: '12px', objectFit: 'contain' }} />
+        <img loading="lazy" decoding="async" src="/images/guides/latency/input-lag-stack.webp" alt="Controller Latency Stack Layers" style={{ width: 'auto', maxWidth: '100%', maxHeight: '400px', borderRadius: '12px', objectFit: 'contain' }} />
       </div>
     </section>
 
@@ -1232,7 +1232,7 @@ const InputLagOptimizationGuide = () => (
       </div>
 
       <div style={{ display: 'flex', justifyContent: 'center', margin: '30px 0' }}>
-        <img src="/images/guides/latency/input-lag-connection-chart.png" alt="Connection Type Comparison" style={{ width: 'auto', maxWidth: '100%', maxHeight: '400px', borderRadius: '12px', objectFit: 'contain' }} />
+        <img loading="lazy" decoding="async" src="/images/guides/latency/input-lag-connection-chart.webp" alt="Connection Type Comparison" style={{ width: 'auto', maxWidth: '100%', maxHeight: '400px', borderRadius: '12px', objectFit: 'contain' }} />
       </div>
     </section>
 
@@ -1282,7 +1282,7 @@ const InputLagOptimizationGuide = () => (
       <h3>How to Verify the Improvement</h3>
       <p>Run new sessions and <Link href="/input-lag-test" style={{ color: '#3182ce' }}>compare before and after readings</Link>. A successful optimization should show a 5ms to 10ms reduction for wired shifts.</p>
       <div style={{ display: 'flex', justifyContent: 'center', margin: '30px 0' }}>
-        <img src="/images/guides/latency/input-lag-before-after.png" alt="Before vs After Latency Test" style={{ width: 'auto', maxWidth: '100%', maxHeight: '400px', borderRadius: '12px', objectFit: 'contain' }} />
+        <img loading="lazy" decoding="async" src="/images/guides/latency/input-lag-before-after.webp" alt="Before vs After Latency Test" style={{ width: 'auto', maxWidth: '100%', maxHeight: '400px', borderRadius: '12px', objectFit: 'contain' }} />
       </div>
     </section>
 
@@ -1317,7 +1317,7 @@ const InputLagOptimizationGuide = () => (
 const MicroDriftDetectionGuide = () => (
   <div className="professional-guide">
     <div style={{ borderRadius: '16px', overflow: 'hidden', marginBottom: '30px', boxShadow: '0 10px 30px rgba(0,0,0,0.05)', background: '#f8fafc', display: 'flex', justifyContent: 'center' }}>
-      <img src="/images/guides/drift/micro-drift-hero.png" alt="Micro-Drift Detection Hero" style={{ width: 'auto', maxWidth: '100%', height: '300px', objectFit: 'contain' }} />
+      <img loading="lazy" decoding="async" src="/images/guides/drift/micro-drift-hero.webp" alt="Micro-Drift Detection Hero" style={{ width: 'auto', maxWidth: '100%', height: '300px', objectFit: 'contain' }} />
     </div>
 
     <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginBottom: '30px' }}>
@@ -1351,7 +1351,7 @@ const MicroDriftDetectionGuide = () => (
         Micro-drift is a consistent, non-zero offset that represents actual sensor wear. A controller with micro-drift will rest at, say, +700 on the X axis persistently.
       </p>
       <div style={{ display: 'flex', justifyContent: 'center', margin: '20px 0' }}>
-        <img src="/images/guides/drift/micro-drift-spectrum.png" alt="Signal Spectrum Diagram" style={{ width: 'auto', maxWidth: '100%', maxHeight: '400px', borderRadius: '12px', objectFit: 'contain' }} />
+        <img loading="lazy" decoding="async" src="/images/guides/drift/micro-drift-spectrum.webp" alt="Signal Spectrum Diagram" style={{ width: 'auto', maxWidth: '100%', maxHeight: '400px', borderRadius: '12px', objectFit: 'contain' }} />
       </div>
     </section>
 
@@ -1384,7 +1384,7 @@ const MicroDriftDetectionGuide = () => (
         <p>Repeat the test monthly to track &quot;Drift Velocity&quot; — the rate of increase in resting offset.</p>
       </div>
       <div style={{ display: 'flex', justifyContent: 'center', margin: '20px 0' }}>
-        <img src="/images/guides/drift/micro-drift-progression.png" alt="Month-over-month Progression" style={{ width: 'auto', maxWidth: '100%', maxHeight: '400px', borderRadius: '12px', objectFit: 'contain' }} />
+        <img loading="lazy" decoding="async" src="/images/guides/drift/micro-drift-progression.webp" alt="Month-over-month Progression" style={{ width: 'auto', maxWidth: '100%', maxHeight: '400px', borderRadius: '12px', objectFit: 'contain' }} />
       </div>
     </section>
 
@@ -1392,7 +1392,7 @@ const MicroDriftDetectionGuide = () => (
       <h3>How to Read Your Results</h3>
       <p>Establish a monitoring log to decide on your final action:</p>
       <div style={{ display: 'flex', justifyContent: 'center', margin: '20px 0' }}>
-        <img src="/images/guides/drift/micro-drift-log.png" alt="Monitoring Log Template" style={{ width: 'auto', maxWidth: '100%', maxHeight: '400px', borderRadius: '12px', objectFit: 'contain' }} />
+        <img loading="lazy" decoding="async" src="/images/guides/drift/micro-drift-log.webp" alt="Monitoring Log Template" style={{ width: 'auto', maxWidth: '100%', maxHeight: '400px', borderRadius: '12px', objectFit: 'contain' }} />
       </div>
       <ul style={{ lineHeight: '2' }}>
         <li><strong>Category A (Stable):</strong> Mode value within ±300. No action needed.</li>
@@ -1432,7 +1432,7 @@ const MicroDriftDetectionGuide = () => (
 const AdvancedDriftAnalysisGuide = () => (
   <div className="professional-guide">
     <div style={{ borderRadius: '16px', overflow: 'hidden', marginBottom: '30px', boxShadow: '0 10px 30px rgba(0,0,0,0.05)', background: '#f8fafc', display: 'flex', justifyContent: 'center' }}>
-      <img src="/images/guides/drift/advanced-drift-hero.png" alt="Advanced Drift Analysis Hero" style={{ width: 'auto', maxWidth: '100%', height: '300px', objectFit: 'contain' }} />
+      <img loading="lazy" decoding="async" src="/images/guides/drift/advanced-drift-hero.webp" alt="Advanced Drift Analysis Hero" style={{ width: 'auto', maxWidth: '100%', height: '300px', objectFit: 'contain' }} />
     </div>
 
     <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginBottom: '30px' }}>
@@ -1505,7 +1505,7 @@ const AdvancedDriftAnalysisGuide = () => (
         </table>
       </div>
       <div style={{ display: 'flex', justifyContent: 'center', margin: '20px 0' }}>
-        <img src="/images/guides/drift/drift-axis-grid.png" alt="Axis Coordinate Grid Zones" style={{ width: 'auto', maxWidth: '100%', maxHeight: '400px', borderRadius: '12px', objectFit: 'contain' }} />
+        <img loading="lazy" decoding="async" src="/images/guides/drift/drift-axis-grid.webp" alt="Axis Coordinate Grid Zones" style={{ width: 'auto', maxWidth: '100%', maxHeight: '400px', borderRadius: '12px', objectFit: 'contain' }} />
       </div>
     </section>
 
@@ -1547,7 +1547,7 @@ const AdvancedDriftAnalysisGuide = () => (
         <strong>Pro Rule:</strong> Deadzone fixes are viable below 10% offset. Above 15%, the deadzone required will degrade your aim more than the drift itself.
       </div>
       <div style={{ display: 'flex', justifyContent: 'center', margin: '20px 0' }}>
-        <img src="/images/guides/drift/raw-vs-deadzone.png" alt="Raw vs Deadzone Comparison" style={{ width: 'auto', maxWidth: '100%', maxHeight: '400px', borderRadius: '12px', objectFit: 'contain' }} />
+        <img loading="lazy" decoding="async" src="/images/guides/drift/raw-vs-deadzone.webp" alt="Raw vs Deadzone Comparison" style={{ width: 'auto', maxWidth: '100%', maxHeight: '400px', borderRadius: '12px', objectFit: 'contain' }} />
       </div>
     </section>
 
@@ -1555,7 +1555,7 @@ const AdvancedDriftAnalysisGuide = () => (
       <h3>Drift Longevity: When to Intervene</h3>
       <p>Drift is non-linear. It may hold at 5% for months before spiking to 20% in a week. Playing competitive shooters with aggressive stick snapping accelerates this wear significantly.</p>
       <div style={{ display: 'flex', justifyContent: 'center', margin: '20px 0' }}>
-        <img src="/images/guides/drift/drift-progression-chart.png" alt="Drift Progression Over Time" style={{ width: 'auto', maxWidth: '100%', maxHeight: '400px', borderRadius: '12px', objectFit: 'contain' }} />
+        <img loading="lazy" decoding="async" src="/images/guides/drift/drift-progression-chart.webp" alt="Drift Progression Over Time" style={{ width: 'auto', maxWidth: '100%', maxHeight: '400px', borderRadius: '12px', objectFit: 'contain' }} />
       </div>
     </section>
 
@@ -1582,7 +1582,7 @@ const AdvancedDriftAnalysisGuide = () => (
 const WirelessVsWiredAnalysisGuide = () => (
   <div className="professional-guide">
     <div style={{ borderRadius: '16px', overflow: 'hidden', marginBottom: '30px', boxShadow: '0 10px 30px rgba(0,0,0,0.05)', background: '#f8fafc', display: 'flex', justifyContent: 'center' }}>
-      <img src="/images/guides/latency/wireless-vs-wired-hero.png" alt="Wireless vs Wired Controller Analysis Hero" style={{ width: 'auto', maxWidth: '100%', height: '300px', objectFit: 'contain' }} />
+      <img loading="lazy" decoding="async" src="/images/guides/latency/wireless-vs-wired-hero.webp" alt="Wireless vs Wired Controller Analysis Hero" style={{ width: 'auto', maxWidth: '100%', height: '300px', objectFit: 'contain' }} />
     </div>
 
     <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginBottom: '30px' }}>
@@ -1620,7 +1620,7 @@ const WirelessVsWiredAnalysisGuide = () => (
       <h3>How Latency is Measured: Protocol Path Breakdown</h3>
       <p>Input lag isn&apos;t just one number; it&apos;s the sum of the transmission time across the protocol path. A wired connection is a direct electrical signal, while wireless adds encryption, packetization, and radio transmission layers.</p>
       <div style={{ display: 'flex', justifyContent: 'center', margin: '30px 0' }}>
-        <img src="/images/guides/latency/protocol-comparison.png" alt="Protocol Path Comparison" style={{ width: 'auto', maxWidth: '100%', maxHeight: '400px', borderRadius: '12px', objectFit: 'contain' }} />
+        <img loading="lazy" decoding="async" src="/images/guides/latency/protocol-comparison.webp" alt="Protocol Path Comparison" style={{ width: 'auto', maxWidth: '100%', maxHeight: '400px', borderRadius: '12px', objectFit: 'contain' }} />
       </div>
     </section>
 
@@ -1629,7 +1629,7 @@ const WirelessVsWiredAnalysisGuide = () => (
       <p>Using real-time telemetry from <Link href="/input-lag-test" style={{ color: '#3182ce', fontWeight: 'bold' }}>mygamepadtester.com/input-lag-test</Link>, we&apos;ve averaged thousands of user sessions to establish these modern standards:</p>
       
       <div style={{ display: 'flex', justifyContent: 'center', margin: '30px 0' }}>
-        <img src="/images/guides/latency/per-model-benchmark.png" alt="Controller Latency Benchmarks" style={{ width: 'auto', maxWidth: '100%', maxHeight: '400px', borderRadius: '12px', objectFit: 'contain' }} />
+        <img loading="lazy" decoding="async" src="/images/guides/latency/per-model-benchmark.webp" alt="Controller Latency Benchmarks" style={{ width: 'auto', maxWidth: '100%', maxHeight: '400px', borderRadius: '12px', objectFit: 'contain' }} />
       </div>
 
       <div style={{ overflowX: 'auto', margin: '20px 0' }}>
@@ -1655,7 +1655,7 @@ const WirelessVsWiredAnalysisGuide = () => (
       <h3>The Variance Factor: Why Consistency Matters More Than Average</h3>
       <p>Latency &quot;Average&quot; is deceptive. A wireless connection might average 8ms but have &quot;jitter&quot; — spikes of 30ms or higher due to radio interference from Wi-Fi or other devices. A wired connection is almost perfectly consistent, ensuring your muscle memory develops on a stable timing baseline.</p>
       <div style={{ display: 'flex', justifyContent: 'center', margin: '30px 0' }}>
-        <img src="/images/guides/latency/latency-consistency.png" alt="Latency Consistency Graph" style={{ width: 'auto', maxWidth: '100%', maxHeight: '400px', borderRadius: '12px', objectFit: 'contain' }} />
+        <img loading="lazy" decoding="async" src="/images/guides/latency/latency-consistency.webp" alt="Latency Consistency Graph" style={{ width: 'auto', maxWidth: '100%', maxHeight: '400px', borderRadius: '12px', objectFit: 'contain' }} />
       </div>
     </section>
 
@@ -1707,7 +1707,7 @@ const WirelessVsWiredAnalysisGuide = () => (
 const XboxOneFatHdmiReplacementGuide = () => (
   <div className="professional-guide">
     <div style={{ borderRadius: '16px', overflow: 'hidden', marginBottom: '30px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }}>
-      <img src="/images/guides/microsoft/xbox-one-fat/hero.png" alt="Xbox One original model 1540 HDMI port damage showing bent pins on rear panel" style={{ width: '100%', height: '400px', objectFit: 'cover' }} />
+      <img loading="lazy" decoding="async" src="/images/guides/microsoft/xbox-one-fat/hero.webp" alt="Xbox One original model 1540 HDMI port damage showing bent pins on rear panel" style={{ width: '100%', height: '400px', objectFit: 'cover' }} />
     </div>
 
     <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginBottom: '30px' }}>
@@ -1751,7 +1751,7 @@ const XboxOneFatHdmiReplacementGuide = () => (
 
     <section id="tools-needed">
       <h3>Tools and Parts You Will Need</h3>
-      <img src="/images/guides/microsoft/xbox-one-fat/tools.png" alt="Xbox One HDMI port replacement tools including soldering iron hot air station solder wick and replacement port" style={{ width: '100%', borderRadius: '12px', marginBottom: '30px' }} />
+      <img loading="lazy" decoding="async" src="/images/guides/microsoft/xbox-one-fat/tools.webp" alt="Xbox One HDMI port replacement tools including soldering iron hot air station solder wick and replacement port" style={{ width: '100%', borderRadius: '12px', marginBottom: '30px' }} />
       <div style={{ overflowX: 'auto' }}>
         <table style={{ width: '100%', borderCollapse: 'collapse', margin: '20px 0', border: '1px solid #e2e8f0' }}>
           <thead>
@@ -1789,12 +1789,12 @@ const XboxOneFatHdmiReplacementGuide = () => (
 
       <div style={{ background: '#f1f5f9', padding: '25px', borderRadius: '16px', margin: '20px 0' }}>
         <strong>2. Removal & Desoldering:</strong> Use hot air at 350°C for the SMD shield tabs. Flip board and use solder wick on through-hole legs. 
-        <img src="/images/guides/microsoft/xbox-one-fat/desoldering.png" alt="Xbox One HDMI port desoldering process showing solder wick applied to through-hole mounting legs" style={{ width: '100%', borderRadius: '12px', marginTop: '15px' }} />
+        <img loading="lazy" decoding="async" src="/images/guides/microsoft/xbox-one-fat/desoldering.webp" alt="Xbox One HDMI port desoldering process showing solder wick applied to through-hole mounting legs" style={{ width: '100%', borderRadius: '12px', marginTop: '15px' }} />
       </div>
 
       <div style={{ background: '#f1f5f9', padding: '25px', borderRadius: '16px', margin: '20px 0' }}>
         <strong>3. Installation:</strong> Position the new port. Solder one shield tab to anchor, then solder the 19 pins and remaining tabs.
-        <img src="/images/guides/microsoft/xbox-one-fat/completed.png" alt="Xbox One replacement HDMI port installed with clean solder joints on through-hole legs and shield tabs" style={{ width: '100%', borderRadius: '12px', marginTop: '15px' }} />
+        <img loading="lazy" decoding="async" src="/images/guides/microsoft/xbox-one-fat/completed.webp" alt="Xbox One replacement HDMI port installed with clean solder joints on through-hole legs and shield tabs" style={{ width: '100%', borderRadius: '12px', marginTop: '15px' }} />
       </div>
     </section>
 

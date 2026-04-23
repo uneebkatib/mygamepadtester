@@ -11,7 +11,7 @@ export const advancedDriftAnalysisContent = {
   hero: {
     title: "Advanced Drift Analysis",
     subtitle: "Professional Diagnostic Techniques for Precision Controller Testing",
-    image: "/images/guides/advanced-drift-analysis-hero.jpg",
+    image: "/images/guides/advanced-drift-analysis-hero.webp",
     author: "Uneeb Katib | Hardware Diagnostic Specialist",
     experience: "6+ years in controller hardware analysis",
     publishedDate: "April 2026"

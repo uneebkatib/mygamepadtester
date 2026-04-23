@@ -1,12 +1,12 @@
-const HallEffectAnalog = "/images/HallEffectAnalog.jpg";
-const PotentiometerSensor = "/images/PotentiometerSensor.jpg";
-const FullAnalog = "/images/FullAnalog.jpg";
+const HallEffectAnalog = "/images/HallEffectAnalog.webp";
+const PotentiometerSensor = "/images/PotentiometerSensor.webp";
+const FullAnalog = "/images/FullAnalog.webp";
 
 export function Info() {
   return (
     <div>
       <h2>Buttons Issues</h2>
-      <img src="" alt="img" />
+      <img loading="lazy" decoding="async" src="" alt="img" />
       <article>
         If there are issues with the keys, it is recommended to clean all
         contacts on the motherboard/flex with alcohol or replace the rubber pads
@@ -19,7 +19,7 @@ export function Info() {
       <article></article>
 
       <h2>LT/RT Issues</h2>
-      <img src="" alt="img" />
+      <img loading="lazy" decoding="async" src="" alt="img" />
       <article>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, quam!
       </article>
@@ -34,11 +34,11 @@ export function Info() {
       <article>article</article>
 
       <h2>Connecting issues</h2>
-      <img src="" alt="img" />
+      <img loading="lazy" decoding="async" src="" alt="img" />
       <article>article</article>
 
       <h2>miniJack issues</h2>
-      <img src="" alt="img" />
+      <img loading="lazy" decoding="async" src="" alt="img" />
       <article>article</article>
     </div>
   );

@@ -7,7 +7,7 @@ import { StyledArticleWrapper } from "@/components/Guides/articles/ArticleStyles
 export const XboxControllerRepair = () => (
   <StyledArticleWrapper>
     <div className="hero-container">
-      <img src="/images/guides/microsoft/xbox-controller-repair.png" alt="Xbox controller repair disassembly" />
+      <img loading="lazy" decoding="async" src="/images/guides/microsoft/xbox-controller-repair.webp" alt="Xbox controller repair disassembly" />
     </div>
 
     <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginBottom: '30px' }}>

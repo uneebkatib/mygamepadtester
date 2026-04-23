@@ -339,7 +339,7 @@ export default function StickDriftTest() {
                     </div>
                     <RespImage>
                         <Image
-                            src="/images/stick-drift-test/ui-mockup.png"
+                            src="/images/stick-drift-test/ui-mockup.webp"
                             alt="Stick drift test tool showing an analog stick offset in a browser window with live X Y axis data"
                             width={800}
                             height={500}
@@ -379,7 +379,7 @@ export default function StickDriftTest() {
                 <ContentGrid>
                     <RespImage>
                         <Image
-                            src="/images/stick-drift-test/internals-diagram.png"
+                            src="/images/stick-drift-test/internals-diagram.webp"
                             alt="Technical diagram of analog stick internals showing potentiometer track wear which is a common cause of stick drift"
                             width={800}
                             height={500}
@@ -409,7 +409,7 @@ export default function StickDriftTest() {
                     </ArticleText>
                     <RespImage style={{ maxWidth: '550px', margin: '0 auto' }}>
                         <Image
-                            src="/images/stick-drift-test/severity-chart.png"
+                            src="/images/stick-drift-test/severity-chart.webp"
                             alt="Stick drift severity chart showing healthy status under 1 percent normal under 5 percent and critical ranges over 10 percent"
                             width={1000}
                             height={400}
@@ -485,7 +485,7 @@ export default function StickDriftTest() {
                         </RoadmapSteps>
                         <RespImage>
                             <Image
-                                src="/images/stick-drift-test/steps-infographic.png"
+                                src="/images/stick-drift-test/steps-infographic.webp"
                                 alt="Step by step infographic for running a stick drift test online visiting mygamepadtester.com and verifying controller results"
                                 width={800}
                                 height={600}
@@ -521,7 +521,7 @@ export default function StickDriftTest() {
                         </div>
                         <RespImage>
                             <Image
-                                src="/images/stick-drift-test/usecases.png"
+                                src="/images/stick-drift-test/usecases.webp"
                                 alt="Three use cases for stick drift test including gamers repair technicians and checking used controllers before purchase"
                                 width={800}
                                 height={500}

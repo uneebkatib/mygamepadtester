@@ -327,7 +327,7 @@ export default function KeyboardContent() {
           </div>
           <RespImage>
             <Image 
-              src="/mechanical_keyboard_diagnostic_hero_top_view_1774592907851.png" 
+              src="/mechanical_keyboard_diagnostic_hero_top_view_1774592907851.webp" 
               alt="High-end mechanical keyboard with glowing RGB and diagnostic UI" 
               width={600} 
               height={450} 
@@ -375,7 +375,7 @@ export default function KeyboardContent() {
             </RoadmapSteps>
             <RespImage>
                <Image 
-                 src="/mechanical_keyboard_diagnostic_guide_steps_1774592846793.png" 
+                 src="/mechanical_keyboard_diagnostic_guide_steps_1774592846793.webp" 
                  alt="Step-by-step mechanical keyboard testing infographic" 
                  width={600} 
                  height={400} 
@@ -403,7 +403,7 @@ export default function KeyboardContent() {
                 </div>
                 <RespImage>
                     <Image 
-                      src="/keyboard_ghosting_vs_nkro_comparison_1774592793751.png" 
+                      src="/keyboard_ghosting_vs_nkro_comparison_1774592793751.webp" 
                       alt="Side-by-side comparison of Keyboard Ghosting vs NKRO" 
                       width={600} 
                       height={400} 
@@ -456,7 +456,7 @@ export default function KeyboardContent() {
             <h4>Stuck Key Detection</h4>
             <p>Immediate visual color-coding for switches that are repeating or hardware-locked in the firing position.</p>
             <Image 
-              src="/keyboard_switch_chatter_log_chart_1774592822605.png" 
+              src="/keyboard_switch_chatter_log_chart_1774592822605.webp" 
               alt="Keyboard Switch Chatter Signal Log" 
               width={300} 
               height={200} 
@@ -470,7 +470,7 @@ export default function KeyboardContent() {
               <p>Monitor your <strong>Input Latency</strong> and <strong>Polling Rates</strong> to ensure zero-lag gaming performance.</p>
             </div>
             <Image 
-              src="/keyboard_polling_latency_chart_1774592771042.png" 
+              src="/keyboard_polling_latency_chart_1774592771042.webp" 
               alt="Keyboard Polling Rate Latency Comparison" 
               width={300} 
               height={200} 
@@ -482,7 +482,7 @@ export default function KeyboardContent() {
             <h4>Matrix Visualizer</h4>
             <p>Hold multiple keys simultaneously to verify N-Key Rollover (NKRO) and ghosting limits.</p>
             <Image 
-              src="/keyboard_nkro_matrix_diagram_1774592731200.png" 
+              src="/keyboard_nkro_matrix_diagram_1774592731200.webp" 
               alt="Keyboard Scan Matrix Schematic" 
               width={300} 
               height={200} 
@@ -509,7 +509,7 @@ export default function KeyboardContent() {
                 </div>
                 <RespImage>
                     <Image 
-                      src="/mechanical_keyboard_switch_cross_section_1774592752930.png" 
+                      src="/mechanical_keyboard_switch_cross_section_1774592752930.webp" 
                       alt="Cross-section diagram of a mechanical keyboard switch" 
                       width={600} 
                       height={400} 

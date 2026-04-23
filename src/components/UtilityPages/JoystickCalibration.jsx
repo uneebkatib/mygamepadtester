@@ -378,7 +378,7 @@ export default function JoystickCalibration() {
           </div>
           <RespImage>
             <Image
-              src="/images/joystick-calibration/ui-mockup.png"
+              src="/images/joystick-calibration/ui-mockup.webp"
               alt="Joystick calibration browser tool showing live X Y axis readouts for left and right analog sticks"
               width={800}
               height={500}
@@ -400,7 +400,7 @@ export default function JoystickCalibration() {
         <ContentGrid>
           <RespImage>
             <Image
-              src="/images/joystick-calibration/deadzone-diagram.png"
+              src="/images/joystick-calibration/deadzone-diagram.webp"
               alt="Analog stick deadzone diagram showing inner deadzone ring outer deadzone ring and center calibration point"
               width={800}
               height={500}
@@ -483,7 +483,7 @@ export default function JoystickCalibration() {
             </RoadmapSteps>
             <RespImage>
               <Image
-                src="/images/joystick-calibration/steps-infographic.png"
+                src="/images/joystick-calibration/steps-infographic.webp"
                 alt="Step by step infographic for joystick calibration showing six steps from connecting controller to confirming calibration result"
                 width={800}
                 height={500}
@@ -528,7 +528,7 @@ export default function JoystickCalibration() {
         <ContentGrid>
           <RespImage>
             <Image
-              src="/images/joystick-calibration/windows-guide.png"
+              src="/images/joystick-calibration/windows-guide.webp"
               alt="Windows joy.cpl game controller settings window showing how to find the joystick calibration option"
               width={800}
               height={500}

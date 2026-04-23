@@ -37,7 +37,7 @@ export function PS5_HDMI_Replacement() {
   return (
     <StyledArticleWrapper>
       <div className="hero-container">
-        <img src="/images/guides/sony/playstation-5/hero.png" alt="PS5 HDMI Port Replacement Professional Guide Hero" />
+        <img loading="lazy" decoding="async" src="/images/guides/sony/playstation-5/hero.webp" alt="PS5 HDMI Port Replacement Professional Guide Hero" />
       </div>
       <div className="title-section">
         <h1>

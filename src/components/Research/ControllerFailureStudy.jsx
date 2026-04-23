@@ -290,7 +290,7 @@ const ControllerFailureStudy = () => {
                     If you've ever watched your character drift off a cliff while your hands are off the controller, you know the frustration. Stick drift is when your analog sticks register movement even when you're not touching them.
                 </p>
 
-                <img src="/research/stick-drift-breakdown.jpg" alt="Stick Drift: The #1 Killer - 70-80% of all controller complaints are stick drift related" />
+                <img loading="lazy" decoding="async" src="/research/stick-drift-breakdown.webp" alt="Stick Drift: The #1 Killer - 70-80% of all controller complaints are stick drift related" />
 
                 <p>
                     It's not just annoying.it's the #1 reason controllers fail. Out of all the complaints we analyzed, 70-80% were about stick drift.
@@ -311,7 +311,7 @@ const ControllerFailureStudy = () => {
 
                 <p>The numbers tell a brutal story. Most controllers don't last long.</p>
 
-                <img src="/research/failure-timeline-zones.jpg" alt="When Controllers Fail - 65-70% fail in first 6 months with detailed breakdown by zone" />
+                <img loading="lazy" decoding="async" src="/research/failure-timeline-zones.webp" alt="When Controllers Fail - 65-70% fail in first 6 months with detailed breakdown by zone" />
 
                 <BulletList>
                     <li>
@@ -327,9 +327,9 @@ const ControllerFailureStudy = () => {
 
                 <SectionTitle>Which Controllers Fail the Fastest?</SectionTitle>
 
-                <img src="/research/platform-showdown.jpg" alt="Platform Reliability Comparison - PS5, Xbox, and Nintendo Switch failure rates" />
+                <img loading="lazy" decoding="async" src="/research/platform-showdown.webp" alt="Platform Reliability Comparison - PS5, Xbox, and Nintendo Switch failure rates" />
 
-                <img src="/research/platform-failure-reports.jpg" alt="Controller Failure Reports by Platform - Switch: 312, PS5: 247, Xbox: 189" />
+                <img loading="lazy" decoding="async" src="/research/platform-failure-reports.webp" alt="Controller Failure Reports by Platform - Switch: 312, PS5: 247, Xbox: 189" />
 
                 <PlatformCard $color="#E60012">
                     <PlatformTitle>🎮 Nintendo Switch: The Worst Offender</PlatformTitle>
@@ -337,7 +337,7 @@ const ControllerFailureStudy = () => {
                         312+ failure reports. Joy-Cons are notorious for drift, with some failing on day one. People report drift "with zero aggressive use" or "straight out of the box."
                     </p>
 
-                    <img src="/research/joycon-drift-epidemic.jpg" alt="Joy-Con Drift: The Epidemic - 312+ reports, worst failure rate" />
+                    <img loading="lazy" decoding="async" src="/research/joycon-drift-epidemic.webp" alt="Joy-Con Drift: The Epidemic - 312+ reports, worst failure rate" />
 
                     <Blockquote>
                         <p>"I treated my Joy-Cons like museum artifacts and they still failed in under three months."</p>
@@ -354,7 +354,7 @@ const ControllerFailureStudy = () => {
                         247+ documented failures. The DualSense feels great when it works, but it doesn't work for long. Some units fail in as little as 10 days.
                     </p>
 
-                    <img src="/research/ps5-dualsense-timeline.jpg" alt="PS5 DualSense Failure Timeline - 247+ reports, some replace every 3 months" />
+                    <img loading="lazy" decoding="async" src="/research/ps5-dualsense-timeline.webp" alt="PS5 DualSense Failure Timeline - 247+ reports, some replace every 3 months" />
 
                     <Blockquote>
                         <p>"I bought three controllers in one year. Two overheated while charging. The third drifted within a week."</p>
@@ -367,7 +367,7 @@ const ControllerFailureStudy = () => {
                         189+ failure reports. Xbox controllers last a bit longer than the competition, but they still break way too fast.
                     </p>
 
-                    <img src="/research/xbox-quality-decline.jpg" alt="Xbox Controller Quality Decline - 2013 controller still works, 2023 fails in 6 months" />
+                    <img loading="lazy" decoding="async" src="/research/xbox-quality-decline.webp" alt="Xbox Controller Quality Decline - 2013 controller still works, 2023 fails in 6 months" />
 
                     <Blockquote>
                         <p>"My 10-year-old controller still works. New one died in 6 months."</p>

@@ -11,7 +11,7 @@ export const joyconDriftRepairContent = {
   hero: {
     title: "Nintendo Switch Joy-Con Drift Repair",
     subtitle: "Complete Guide to Fix the Most Infamous Controller Problem",
-    image: "/images/guides/joycon-drift-repair-hero.jpg",
+    image: "/images/guides/joycon-drift-repair-hero.webp",
     author: "Uneeb Katib | Hardware Diagnostic Specialist",
     experience: "6+ years in controller hardware analysis",
     publishedDate: "April 2026"

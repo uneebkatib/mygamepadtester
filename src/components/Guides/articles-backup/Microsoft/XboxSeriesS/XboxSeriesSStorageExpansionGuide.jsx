@@ -7,7 +7,7 @@ import { StyledArticleWrapper } from "../../ArticleStyles";
 export const XboxSeriesSStorageExpansionGuide = () => (
   <StyledArticleWrapper>
     <div className="hero-container">
-      <img src="/images/guides/microsoft/xbox-series-s/storage-expansion-hero.png" alt="Xbox Series S console rear panel with Seagate Storage Expansion Card inserted" />
+      <img loading="lazy" decoding="async" src="/images/guides/microsoft/xbox-series-s/storage-expansion-hero.webp" alt="Xbox Series S console rear panel with Seagate Storage Expansion Card inserted" />
     </div>
 
     <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginBottom: '30px' }}>
@@ -108,7 +108,7 @@ export const XboxSeriesSStorageExpansionGuide = () => (
           <li>SanDisk Extreme Portable SSD</li>
         </ul>
       </div>
-      <img src="/images/guides/microsoft/xbox-series-s/storage-options-flat-lay.png" alt="Xbox Series S storage expansion options including expansion card and external drives" style={{ width: '100%', borderRadius: '12px', marginBottom: '30px' }} />
+      <img loading="lazy" decoding="async" src="/images/guides/microsoft/xbox-series-s/storage-options-flat-lay.webp" alt="Xbox Series S storage expansion options including expansion card and external drives" style={{ width: '100%', borderRadius: '12px', marginBottom: '30px' }} />
     </section>
 
     <section id="warnings" style={{ marginTop: '40px' }}>
@@ -128,11 +128,11 @@ export const XboxSeriesSStorageExpansionGuide = () => (
       <p style={{ lineHeight: '1.8' }}>
         1. Locate rectangular port on back. 2. Align card with logo facing up. 3. Push firmly until seated flush.
       </p>
-      <img src="/images/guides/microsoft/xbox-series-s/expansion-card-insertion.png" alt="Inserting Seagate expansion card into Xbox Series S" style={{ width: '100%', borderRadius: '12px', margin: '20px 0' }} />
+      <img loading="lazy" decoding="async" src="/images/guides/microsoft/xbox-series-s/expansion-card-insertion.webp" alt="Inserting Seagate expansion card into Xbox Series S" style={{ width: '100%', borderRadius: '12px', margin: '20px 0' }} />
       <p style={{ lineHeight: '1.8' }}>
         Status Verification: Settings &gt; System &gt; Storage. Should show 953GB available for a 1TB card.
       </p>
-      <img src="/images/guides/microsoft/xbox-series-s/xbox-storage-settings.png" alt="Xbox storage settings showing expansion card recognized" style={{ width: '100%', borderRadius: '12px', margin: '20px 0' }} />
+      <img loading="lazy" decoding="async" src="/images/guides/microsoft/xbox-series-s/xbox-storage-settings.webp" alt="Xbox storage settings showing expansion card recognized" style={{ width: '100%', borderRadius: '12px', margin: '20px 0' }} />
     </section>
 
     <section id="test" style={{ marginTop: '40px' }}>

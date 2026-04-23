@@ -7,7 +7,7 @@ import { ThemeProvider } from '@/contexts/ThemeContext'
 import { I18nProvider } from '@/contexts/I18nContext'
 import { usePathname } from 'next/navigation'
 import dynamic from 'next/dynamic'
-import { Suspense } from 'react'
+import { Suspense, useEffect } from 'react'
 
 const Ad = dynamic(
     () => import('@/components/Ad/Ad'),
@@ -17,6 +17,15 @@ const Ad = dynamic(
 export default function ClientLayout({ children }) {
     const pathname = usePathname();
     const isWidget = pathname === '/widget' || pathname?.startsWith('/widget/');
+
+    // Register service worker for caching static assets / images
+    useEffect(() => {
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker
+                .register('/sw.js', { scope: '/' })
+                .catch(() => {/* ignore sw registration errors */});
+        }
+    }, []);
 
     return (
         <I18nProvider>

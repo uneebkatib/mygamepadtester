@@ -11,7 +11,7 @@ export const ps5HdmiReplacementContent = {
   hero: {
     title: "PS5 HDMI Port Replacement",
     subtitle: "Professional Guide to Fix No Display and HDMI Connection Issues",
-    image: "/images/guides/ps5-hdmi-replacement-hero.jpg",
+    image: "/images/guides/ps5-hdmi-replacement-hero.webp",
     author: "Uneeb Katib | Hardware Diagnostic Specialist",
     experience: "6+ years in controller hardware analysis",
     publishedDate: "April 2026"

@@ -327,7 +327,7 @@ export default function MouseContent() {
           </div>
           <RespImage>
             <Image 
-              src="/gaming_mouse_diagnostic_hero_1774592567455.png" 
+              src="/gaming_mouse_diagnostic_hero_1774592567455.webp" 
               alt="High-end gaming mouse with holographic diagnostic UI" 
               width={600} 
               height={450} 
@@ -375,7 +375,7 @@ export default function MouseContent() {
             </RoadmapSteps>
             <RespImage>
                <Image 
-                 src="/gaming_mouse_diagnostic_guide_steps_1774592683919.png" 
+                 src="/gaming_mouse_diagnostic_guide_steps_1774592683919.webp" 
                  alt="Step-by-step mouse testing infographic" 
                  width={600} 
                  height={400} 
@@ -417,7 +417,7 @@ export default function MouseContent() {
             <h4>CPS Counter</h4>
             <p>Measure your <strong>Clicks Per Second</strong> over 1s, 5s, or 10s intervals to benchmark your burst and sustain speed.</p>
             <Image 
-              src="/mouse_cps_benchmark_chart_1774592662224.png" 
+              src="/mouse_cps_benchmark_chart_1774592662224.webp" 
               alt="CPS Speed Benchmark Zones" 
               width={300} 
               height={200} 
@@ -431,7 +431,7 @@ export default function MouseContent() {
               <p>Detailed interval logging to catch accidental double-clicks caused by switch degradation or debris.</p>
             </div>
             <Image 
-              src="/mouse_switch_chatter_infographic_1774592641360.png" 
+              src="/mouse_switch_chatter_infographic_1774592641360.webp" 
               alt="Mouse Switch Chatter Waveform" 
               width={300} 
               height={200} 
@@ -443,7 +443,7 @@ export default function MouseContent() {
             <h4>Scroll Encoder Test</h4>
             <p>Verify that your scroll wheel isn't jumping, stuttering, or failing to register specific scroll steps.</p>
             <Image 
-              src="/mouse_scroll_encoder_diagram_1774592619409.png" 
+              src="/mouse_scroll_encoder_diagram_1774592619409.webp" 
               alt="Mouse Scroll Encoder Internals" 
               width={300} 
               height={200} 
@@ -470,7 +470,7 @@ export default function MouseContent() {
                 </div>
                 <RespImage>
                     <Image 
-                      src="/mouse_switch_registration_diagram_1774592594421.png" 
+                      src="/mouse_switch_registration_diagram_1774592594421.webp" 
                       alt="Mouse microswitch registration and actuation cycle diagram" 
                       width={600} 
                       height={400} 

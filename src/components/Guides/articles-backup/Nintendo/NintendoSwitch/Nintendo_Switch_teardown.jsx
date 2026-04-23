@@ -5,7 +5,7 @@ export function Nintendo_Switch_teardown() {
   return (
     <StyledArticleWrapper>
       <div className="hero-container">
-        <img src="/images/guides/nintendo/switch/hero.png" alt="Nintendo Switch Teardown &amp; Disassembly Guide Hero" />
+        <img loading="lazy" decoding="async" src="/images/guides/nintendo/switch/hero.webp" alt="Nintendo Switch Teardown &amp; Disassembly Guide Hero" />
       </div>
       <h1>Nintendo Switch Teardown &amp; Disassembly Guide</h1>
       <p>Complete professional guide for safely disassembling Nintendo Switch consoles for repair or component analysis.</p>

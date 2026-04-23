@@ -7,7 +7,7 @@ import { StyledArticleWrapper } from "../../ArticleStyles";
 export const XboxOnePowerSupplyRepairGuide = () => (
   <StyledArticleWrapper>
     <div className="hero-container">
-      <img src="/images/guides/microsoft/xbox-one/power-hero.png" alt="Xbox One original power supply brick showing LED indicator light" />
+      <img loading="lazy" decoding="async" src="/images/guides/microsoft/xbox-one/power-hero.webp" alt="Xbox One original power supply brick showing LED indicator light" />
     </div>
 
     <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginBottom: '30px' }}>

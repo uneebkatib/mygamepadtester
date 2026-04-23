@@ -7,7 +7,7 @@ import { StyledArticleWrapper } from "../../ArticleStyles";
 export const XboxOneSOpticalDriveReplacementGuide = () => (
   <StyledArticleWrapper>
     <div className="hero-container">
-      <img src="/images/guides/microsoft/xbox-one-s/optical-hero.png" alt="Xbox One S optical drive disc slot showing hardware failure" />
+      <img loading="lazy" decoding="async" src="/images/guides/microsoft/xbox-one-s/optical-hero.webp" alt="Xbox One S optical drive disc slot showing hardware failure" />
     </div>
 
     <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginBottom: '30px' }}>
@@ -67,7 +67,7 @@ export const XboxOneSOpticalDriveReplacementGuide = () => (
 
     <section id="tools" style={{ marginTop: '40px' }}>
       <h2 style={{ fontSize: '1.8rem', color: '#1a202c', marginBottom: '20px' }}>Tools and Parts You Will Need</h2>
-      <img src="/images/guides/microsoft/xbox-one-s/optical-tools.png" alt="Tools needed for Xbox One S drive replacement" style={{ width: '100%', borderRadius: '12px', marginBottom: '30px' }} />
+      <img loading="lazy" decoding="async" src="/images/guides/microsoft/xbox-one-s/optical-tools.webp" alt="Tools needed for Xbox One S drive replacement" style={{ width: '100%', borderRadius: '12px', marginBottom: '30px' }} />
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px' }}>
         <div style={{ background: '#f8fafc', padding: '15px', borderRadius: '8px' }}>
           <h4>Screwdrivers</h4>
@@ -100,13 +100,13 @@ export const XboxOneSOpticalDriveReplacementGuide = () => (
       <p style={{ lineHeight: '1.8' }}>
         Flip the drive. Remove the T10 screws holding the green PCB. <strong>Wait:</strong> Disconnect the small flex ribbon cable from the ZIF connector first. Move this PCB to your new drive and reconnect the cables.
       </p>
-      <img src="/images/guides/microsoft/xbox-one-s/optical-pcb.png" alt="Transferring the optical drive PCB" style={{ width: '100%', borderRadius: '12px', margin: '20px 0' }} />
+      <img loading="lazy" decoding="async" src="/images/guides/microsoft/xbox-one-s/optical-pcb.webp" alt="Transferring the optical drive PCB" style={{ width: '100%', borderRadius: '12px', margin: '20px 0' }} />
 
       <h3>Step 3 — Installation</h3>
       <p style={{ lineHeight: '1.8' }}>
         Seat the new drive in the chassis. Connect the SATA and power cables. Reassemble the RF shield and outer shell.
       </p>
-      <img src="/images/guides/microsoft/xbox-one-s/optical-install.png" alt="Installing the replacement drive in the console" style={{ width: '100%', borderRadius: '12px', margin: '20px 0' }} />
+      <img loading="lazy" decoding="async" src="/images/guides/microsoft/xbox-one-s/optical-install.webp" alt="Installing the replacement drive in the console" style={{ width: '100%', borderRadius: '12px', margin: '20px 0' }} />
     </section>
 
     <section id="test" style={{ marginTop: '40px' }}>

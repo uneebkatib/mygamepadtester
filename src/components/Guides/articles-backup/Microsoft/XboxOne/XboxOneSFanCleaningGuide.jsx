@@ -7,7 +7,7 @@ import { StyledArticleWrapper } from "../../ArticleStyles";
 export const XboxOneSFanCleaningGuide = () => (
   <StyledArticleWrapper>
     <div className="hero-container">
-      <img src="/images/guides/microsoft/xbox-one-s/fan-hero.png" alt="Xbox One S rear vent showing dust accumulation causing overheating" />
+      <img loading="lazy" decoding="async" src="/images/guides/microsoft/xbox-one-s/fan-hero.webp" alt="Xbox One S rear vent showing dust accumulation causing overheating" />
     </div>
 
     <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginBottom: '30px' }}>
@@ -109,7 +109,7 @@ export const XboxOneSFanCleaningGuide = () => (
           </ul>
         </div>
       </div>
-      <img src="/images/guides/microsoft/xbox-one-s/fan-tools.png" alt="Tools needed for Xbox One S fan service" style={{ width: '100%', borderRadius: '12px', marginBottom: '30px' }} />
+      <img loading="lazy" decoding="async" src="/images/guides/microsoft/xbox-one-s/fan-tools.webp" alt="Tools needed for Xbox One S fan service" style={{ width: '100%', borderRadius: '12px', marginBottom: '30px' }} />
     </section>
 
     <section id="safety" style={{ marginTop: '40px' }}>
@@ -137,7 +137,7 @@ export const XboxOneSFanCleaningGuide = () => (
         <p style={{ lineHeight: '1.8' }}>
           The heatsink fins often accumulate a &quot;mat&quot; of dust. Use compressed air and cotton swabs with IPA to clear every channel.
         </p>
-        <img src="/images/guides/microsoft/xbox-one-s/heatsink-dust.png" alt="Xbox One S heatsink with dust accumulation" style={{ width: '100%', borderRadius: '12px', margin: '20px 0' }} />
+        <img loading="lazy" decoding="async" src="/images/guides/microsoft/xbox-one-s/heatsink-dust.webp" alt="Xbox One S heatsink with dust accumulation" style={{ width: '100%', borderRadius: '12px', margin: '20px 0' }} />
       </div>
 
       <div style={{ marginBottom: '40px' }}>
@@ -145,7 +145,7 @@ export const XboxOneSFanCleaningGuide = () => (
         <p style={{ lineHeight: '1.8' }}>
           Unplug the fan power connector. Remove the mounting screws and swap the fan. Ensure the 3-pin/4-pin connector is fully seated—a loose connector is a common failure point.
         </p>
-        <img src="/images/guides/microsoft/xbox-one-s/fan-connector.png" alt="Connecting the replacement fan to the motherboard" style={{ width: '100%', borderRadius: '12px', margin: '20px 0' }} />
+        <img loading="lazy" decoding="async" src="/images/guides/microsoft/xbox-one-s/fan-connector.webp" alt="Connecting the replacement fan to the motherboard" style={{ width: '100%', borderRadius: '12px', margin: '20px 0' }} />
       </div>
     </section>
 
