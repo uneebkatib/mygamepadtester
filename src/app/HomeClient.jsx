@@ -23,17 +23,23 @@ export default function HomeClient() {
             </section>
 
             {/* Global Telemetry Preview Section — below the fold; defer rendering */}
-            <section aria-label="Global Analytics Preview" style={{ contentVisibility: 'auto', containIntrinsicSize: '0 400px' }}>
+            {/* containIntrinsicSize matches the actual rendered height so contentVisibility
+                does not cause a layout shift when the element enters the viewport. */}
+            <section aria-label="Global Analytics Preview" style={{ contentVisibility: 'auto', containIntrinsicSize: '0 480px' }}>
                 <TopControllersPreview />
             </section>
 
             {/* Partners Section — below the fold; defer rendering */}
-            <section style={{ contentVisibility: 'auto', containIntrinsicSize: '0 200px' }}>
+            <section style={{ contentVisibility: 'auto', containIntrinsicSize: '0 220px' }}>
                 <Partners />
             </section>
 
-            {/* Article Content Section — below the fold; defer rendering */}
-            <article style={{ contentVisibility: 'auto', containIntrinsicSize: '0 800px' }}>
+            {/* Article Content Section — contentVisibility removed because the reserved
+                size (800 px) was far smaller than the actual rendered height (~14 500 px),
+                causing a large layout shift (CLS 0.11) when the browser un-skipped the
+                element on first scroll.  The article loads progressively via its own
+                lazy-loaded sub-components, so no explicit deferral wrapper is needed. */}
+            <article>
                 <MainPageInfo />
             </article>
         </div>

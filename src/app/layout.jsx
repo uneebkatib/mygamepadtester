@@ -45,6 +45,14 @@ export default function RootLayout({ children }) {
             <head>
                 <link rel="preconnect" href="https://www.googletagmanager.com" />
                 <link rel="preconnect" href="https://www.google-analytics.com" />
+                {/* Preconnect to AdSense origins so the ad script fetches
+                    immediately after the 2 s defer, without an extra DNS + TCP
+                    round-trip adding to LCP.  dns-prefetch is kept as a
+                    fallback for browsers that ignore preconnect. */}
+                <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
+                <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
+                <link rel="preconnect" href="https://googleads.g.doubleclick.net" />
+                <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" />
                 {/*
                   * Global base styles – inlined to eliminate the render-blocking external CSS
                   * request that was previously emitted for src/styles/globals.css (1.8 KB gzip,
