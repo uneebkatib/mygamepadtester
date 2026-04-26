@@ -1,8 +1,8 @@
 // Service Worker — cache-first for static assets, network-first for HTML
 // Version bump to force cache refresh when this file changes
-const CACHE_NAME = 'mgt-static-v2';
-const FONT_CACHE = 'mgt-fonts-v1';
-const IMAGE_CACHE = 'mgt-images-v1';
+const CACHE_NAME = 'mgt-static-v3';
+const FONT_CACHE = 'mgt-fonts-v2';
+const IMAGE_CACHE = 'mgt-images-v2';
 
 // Core shell resources to precache on install
 const PRECACHE_URLS = [

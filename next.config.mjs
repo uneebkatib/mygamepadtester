@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  // Generate out/stick-drift-test/index.html instead of out/stick-drift-test.html
+  // so that a standard Nginx try_files $uri $uri/ /index.html; works without
+  // needing the non-standard $uri.html lookup.
+  trailingSlash: true,
   images: {
     unoptimized: true,
   },
